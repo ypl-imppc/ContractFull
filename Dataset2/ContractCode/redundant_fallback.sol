@@ -1,0 +1,7 @@
+
+contract Crowdsale {
+
+    function() {
+	revert();
+    }
+}

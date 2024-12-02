@@ -1,0 +1,242 @@
+incorrect_signature.sol**************
+	Integer Underflow----------High
+	Integer Overflow----------High
+	Callstack Depth Attack Vulnerability----------Low
+arbitrary_send.sol**************
+pragma_solc-version.sol**************
+PreSentEther.sol**************
+truncationError.sol**************
+tautology_loop.sol**************
+private_not_hidedata.sol**************
+uninitialized_ptr_constructor.sol**************
+erc20_throw.sol**************
+erc223_interface.sol**************
+GuessStatic.sol**************
+length_manipulation.sol**************
+revert_require.sol**************
+	Transaction-Ordering Dependence (TOD)----------High
+	Timestamp Dependency----------Low
+wasteful_contract.sol**************
+SigWrongPara.sol**************
+constant_function_state.sol**************
+DangerousRandomNumbers.sol**************
+lockedMoney.sol**************
+continue_in_loop.sol**************
+wrongName.sol**************
+ERC827.sol**************
+timestamp.sol**************
+integer_overflow01.sol**************
+ParticipantTracker.sol**************
+redundant_statements.sol**************
+confused_sign.sol**************
+	Integer Underflow----------High
+	Integer Overflow----------High
+	Transaction-Ordering Dependence (TOD)----------High
+state_default_visibility.sol**************
+PushButNoPull.sol**************
+boolean_equal.sol**************
+Uninitialized_storage_pointer.sol**************
+UncappedVersion1.sol**************
+extra_gas_inloops.sol**************
+erc20_interface.sol**************
+underFlow.sol**************
+Incorrect_Inheritance_order1.sol**************
+variableScope.sol**************
+return_struct.sol**************
+callstack.sol**************
+privateModifier.sol**************
+division_overflow.sol**************
+Incorrect_Inheritance-Order.sol**************
+writeto_arbitrarystorage.sol**************
+IntegerSignednessError.sol**************
+TOD.sol**************
+	Transaction-Ordering Dependence (TOD)----------High
+timeDependence1.sol**************
+event_before_revert.sol**************
+missing_zero_address_validation.sol**************
+	Transaction-Ordering Dependence (TOD)----------High
+	Callstack Depth Attack Vulnerability----------Low
+similar_names.sol**************
+deleteDynamic.sol**************
+byte[].sol**************
+weak_prng.sol**************
+modifier_reentrancy.sol**************
+Incorrect_Inheritance_order.sol**************
+reentrancy_limited_gas.sol**************
+assemblycall_rewrite.sol**************
+unstandardERC721.sol**************
+array_by_reference.sol**************
+uninitStateVar.sol**************
+incorrect_equality.sol**************
+ReEntrancy_attack.sol**************
+complexFallback.sol**************
+multiple_constructors.sol**************
+shadowing_builtin.sol**************
+Short_Address_Attack.sol**************
+badDelegate.sol**************
+void_constructors.sol**************
+Delegatecall_Untrusted_callee.sol**************
+replayAttack2.sol**************
+SuicideEasily.sol**************
+division_overflow_NoError.sol**************
+uninitialized_storage.sol**************
+tx_origin.sol**************
+costly_loop.sol**************
+integer_overflow.sol**************
+approve.sol**************
+erc721_interface.sol**************
+missing_events_arithmetic.sol**************
+shadowingState.sol**************
+TokenSale.sol**************
+deprecated_simple.sol**************
+prodigal.sol**************
+erc20_indexed.sol**************
+unhandledException.sol**************
+	Integer Overflow----------High
+	Transaction-Ordering Dependence (TOD)----------High
+visibility_not_set.sol**************
+shadowing_state.sol**************
+msgvalue_equals_zero.sol**************
+DOS_send_loop.sol**************
+uninitialized_state.sol**************
+DOS_gaslimit.sol**************
+Overwriting_Arbitrary_Storagevariables.sol**************
+overpowered_role.sol**************
+constructor_return.sol**************
+UncappedVersion.sol**************
+extcodesize_invoke.sol**************
+erc1155_interface.sol**************
+ArbitraryWrite.sol**************
+Replay_attack.sol**************
+unchecked_lowlevel.sol**************
+	Transaction-Ordering Dependence (TOD)----------High
+incorrect_blockhash.sol**************
+default_return_value.sol**************
+Unprotected Ether Withdrawal.sol**************
+function_problem.sol**************
+Storage_Variabletomemory.sol**************
+reentrancy_eth.sol**************
+deprecated_standards.sol**************
+returnInCons.sol**************
+divide_before_multiply.sol**************
+Overflow.sol**************
+calls_inloop.sol**************
+visibility_0.5.0.sol**************
+old_blockhash.sol**************
+code_no_effects.sol**************
+	Callstack Depth Attack Vulnerability----------Low
+badTxorigin.sol**************
+typo_simple.sol**************
+multiple_calls_in_transaction.sol**************
+guess_the_random_number.sol**************
+privatePass.sol**************
+incorrect_constructor_name.sol**************
+shadowing_abstract.sol**************
+Unchecked_returnValue_error.sol**************
+hiddenSymbol.sol**************
+naming_convention.sol**************
+reused_constructor.sol**************
+upgrade_050.sol**************
+erc20_approve.sol**************
+reentrancy_events.sol**************
+simple_dao.sol**************
+	Integer Overflow----------High
+	Re-Entrancy Vulnerability----------High
+KingOfTheEtherThrone.sol**************
+	Integer Underflow----------High
+	Integer Overflow----------High
+	Transaction-Ordering Dependence (TOD)----------High
+	Callstack Depth Attack Vulnerability----------Low
+Uninitialized_storage_pointer01.sol**************
+HardCodeAddress.sol**************
+missing_input_validation.sol**************
+ArbitraryFunctionType.sol**************
+visibility_storage.sol**************
+erc1410_interface.sol**************
+jump_arbitrary_instruction.sol**************
+short_address_attack_NoError .sol**************
+transfer_to_zeroaddress.sol**************
+publicToExternal.sol**************
+suicidal.sol**************
+shortAddressAttack.sol**************
+name_reused.sol**************
+ImmutableConstant.sol**************
+unimplemented_functions.sol**************
+repeat_call.sol**************
+ImplicitVisibility1.sol**************
+token_with_backdoor.sol**************
+simple_suicide.sol**************
+MissConstructor.sol**************
+block_other_parameters_number.sol**************
+ReEntrancy.sol**************
+	Integer Overflow----------High
+	Re-Entrancy Vulnerability----------High
+	Timestamp Dependency----------Low
+simpledschief.sol**************
+storage_array.sol**************
+send_transfer.sol**************
+unused_state.sol**************
+redundant_fallback.sol**************
+Authorization_through_tx.origin.sol**************
+unchecked_send.sol**************
+erc777_interface.sol**************
+assembly_0.5.1.sol**************
+GuessEachOtherNumber.sol**************
+uninitLocalVar.sol**************
+modulo_overflow.sol**************
+token_error.sol**************
+abiencoder_array.sol**************
+tokensalechallenge.sol**************
+external_function.sol**************
+Forced_ether.sol**************
+unstandardERC20.sol**************
+ConstBalanceInLoop.sol**************
+badProxy.sol**************
+low_level_calls.sol**************
+	Transaction-Ordering Dependence (TOD)----------High
+	Integer Overflow----------High
+redundant_fallback_0.3.0.sol**************
+runtime_create_user_input.sol**************
+typographical_error.sol**************
+variableNotSafe.sol**************
+	Integer Overflow----------High
+	Callstack Depth Attack Vulnerability----------Low
+bank.sol**************
+	Integer Overflow----------High
+	Transaction-Ordering Dependence (TOD)----------High
+	Re-Entrancy Vulnerability----------High
+constable_states.sol**************
+complex_function.sol**************
+return_memory.sol**************
+SigWrongPara_NoError.sol**************
+tooManyDigits.sol**************
+MappingDeletion.sol**************
+assert_violation.sol**************
+unused_return.sol**************
+constant_function_state_2.sol**************
+shift_parameter_mixup.sol**************
+shadowing_local.sol**************
+enum_conversion.sol**************
+integerDivision.sol**************
+public_mappings_nested.sol**************
+timeDependence.sol**************
+HashCollision.sol**************
+shadowing_function.sol**************
+MissConstructor1.sol**************
+replayAttack1.sol**************
+uninitialized_storage_NoError.sol**************
+signedness_overflow.sol**************
+Overwhelming.sol**************
+dowhileContinue.sol**************
+constant_function_state_1.sol**************
+abuse_boolean_constants.sol**************
+incorrect_modifier.sol**************
+requirement_simple.sol**************
+missing_events_access_control.sol**************
+erc621_interface.sol**************
+boolean.sol**************
+unprotected_upgrade.sol**************
+incorrect_constructor.sol**************
+erc875_interface.sol**************
+mul_var_len_arguments.sol**************
+rtlo.sol**************

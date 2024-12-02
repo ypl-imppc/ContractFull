@@ -1,0 +1,54 @@
+SlowMistToken_0xcb0797aaca2fd4edd3bf07e7157d40322629af8b.sol**************
+	Locked money----------High
+	Use of SafeMath----------Low
+	Compiler version not fixed----------Low
+	Upgrade code to Solidity 0.5.x----------Low
+	Redundant fallback function----------Low
+	Using approve function of the ERC-20 token standard----------Low
+	Implicit visibility level----------Low
+DOGE_1eth_0x4CcfFAD0C12056A6CF2BcEAA20f69EAFD063f85F.sol**************
+	Multiplication after division----------Medium
+	Costly loop----------Medium
+	Use of SafeMath----------Low
+	Extra gas consumption----------Low
+	Hardcoded address----------Low
+	Replace multiple return values with a struct----------Low
+	Using approve function of the ERC-20 token standard----------Low
+	Implicit visibility level----------Low
+FiatTokenProxy_3360_0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48.sol**************
+	Locked money----------High
+	Compiler version not fixed----------Low
+	Use of assembly----------Low
+	View-function should not change state----------Low
+KEK_1eth_0xD84C2b7CF73129D789322FCEa644442995081283.sol**************
+	Multiplication after division----------Medium
+	Costly loop----------Medium
+	Use of SafeMath----------Low
+	Extra gas consumption----------Low
+	Hardcoded address----------Low
+	Replace multiple return values with a struct----------Low
+	Using approve function of the ERC-20 token standard----------Low
+	Implicit visibility level----------Low
+WETH9_0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.sol**************
+	Compiler version not fixed----------Low
+	Upgrade code to Solidity 0.5.x----------Low
+Lcy_quiz_32eth_0xC431F46Fc453D091073B02b405F04Fefab1C5078.sol**************
+TetherToken_16283_0xdAC17F958D2ee523a2206206994597C13D831ec7.sol**************
+	Overpowered role----------Medium
+	Use of SafeMath----------Low
+	Deprecated constructions----------Low
+	Compiler version not fixed----------Low
+	Upgrade code to Solidity 0.5.x----------Low
+	Using approve function of the ERC-20 token standard----------Low
+Smart_Bank_15eth_0x40D6C5e48A94CD7BA4dfcb62CA79102eC8A082EC.sol**************
+	Locked money----------High
+	Implicit visibility level----------Low
+LoT_Quiz_0xeF7c17E86a1C3c3E5421a9C5E05B5bE3Cb642Cee.sol**************
+	Compiler version not fixed----------Low
+IdolMarketplace_0x4ce4f4c4891876ffc0670bd9a25fcc4597db3bbf.sol**************
+	Locked money----------High
+	Compiler version not fixed----------Low
+	Hardcoded address----------Low
+	Implicit visibility level----------Low
+	
+	time:56.77s

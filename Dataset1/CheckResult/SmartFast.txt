@@ -1,0 +1,1042 @@
+incorrect_signature.sol**************
+	upgrade-050 ---------- Informational
+	incorrect-signature ---------- Medium
+arbitrary_send.sol**************
+pragma_solc-version.sol**************
+PreSentEther.sol**************
+truncationError.sol**************
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+tautology_loop.sol**************
+private_not_hidedata.sol**************
+	arbitrary-send ---------- High
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	private-not-hidedata ---------- Informational
+uninitialized_ptr_constructor.sol**************
+	uninitialized-local ---------- Medium
+	unused-return ---------- Medium
+	uninitialized-fptr-cst ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+erc20_throw.sol**************
+	writeto-arbitrarystorage ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	erc20-throw ---------- Informational
+erc223_interface.sol**************
+	erc20-interface ---------- Medium
+	erc223-interface ---------- Medium
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	upgrade-050 ---------- Informational
+GuessStatic.sol**************
+	arbitrary-send ---------- High
+	incorrect-equality ---------- Medium
+	block-other-parameters ---------- Low
+	integer-overflow ---------- Low
+	timestamp ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+length_manipulation.sol**************
+	uninitialized-state ---------- High
+	uninitialized-local ---------- Medium
+	calls-loop ---------- Low
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	external-function ---------- Optimization
+	extra-gas-inloops ---------- Optimization
+	costly-loop ---------- Medium
+	revert-require ---------- Optimization
+revert_require.sol**************
+wasteful_contract.sol**************
+	arbitrary-send ---------- High
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	visibility ---------- Informational
+SigWrongPara.sol**************
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	private-not-hidedata ---------- Informational
+constant_function_state.sol**************
+	arbitrary-send ---------- High
+	constant-function-state ---------- Medium
+	unchecked-send ---------- Medium
+	shadowing-local ---------- Low
+	missing-zero-check ---------- Low
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	redundant-statements ---------- Optimization
+	assembly ---------- Informational
+DangerousRandomNumbers.sol**************
+	arbitrary-send ---------- High
+	incorrect-equality ---------- Medium
+	block-other-parameters ---------- Low
+	integer-overflow ---------- Low
+	timestamp ---------- Low
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+lockedMoney.sol**************
+	locked-ether ---------- Medium
+	solc-version ---------- Informational
+continue_in_loop.sol**************
+wrongName.sol**************
+	controlled-array-length ---------- High
+	locked-ether ---------- Medium
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+ERC827.sol**************
+timestamp.sol**************
+	default-return-value ---------- Medium
+	incorrect-equality ---------- Medium
+	timestamp ---------- Low
+	solc-version ---------- Informational
+integer_overflow01.sol**************
+	uninitialized-local ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	revert-require ---------- Optimization
+	visibility ---------- Informational
+ParticipantTracker.sol**************
+	tautology ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	length-manipulation ---------- Informational
+redundant_statements.sol**************
+	solc-version ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	redundant-statements ---------- Optimization
+	unused-state ---------- Optimization
+confused_sign.sol**************
+	assert-violation ---------- Medium
+	integer-overflow ---------- Low
+	missing-zero-check ---------- Low
+	solc-version ---------- Informational
+	reentrancy-limited-gas ---------- Informational
+	external-function ---------- Optimization
+state_default_visibility.sol**************
+PushButNoPull.sol**************
+	uninitialized-state ---------- High
+	calls-loop ---------- Low
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	hardcoded ---------- Informational
+	extra-gas-inloops ---------- Optimization
+	costly-loop ---------- Medium
+	private-not-hidedata ---------- Informational
+	send-transfer ---------- Optimization
+boolean_equal.sol**************
+Uninitialized_storage_pointer.sol**************
+UncappedVersion1.sol**************
+	solc-version ---------- Informational
+	constable-states ---------- Optimization
+extra_gas_inloops.sol**************
+erc20_interface.sol**************
+	erc20-interface ---------- Medium
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	visibility ---------- Informational
+underFlow.sol**************
+	tautology ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+Incorrect_Inheritance_order1.sol**************
+	incorrect-inheritance-order ---------- Low
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+variableScope.sol**************
+	integer-overflow ---------- Low
+	variable-scope ---------- Low
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+return_struct.sol**************
+	default-return-value ---------- Medium
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	return-struct ---------- Optimization
+callstack.sol**************
+	solc-version ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+privateModifier.sol**************
+	arbitrary-send ---------- High
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	private-not-hidedata ---------- Informational
+division_overflow.sol**************
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	revert-require ---------- Optimization
+	visibility ---------- High
+Incorrect_Inheritance-Order.sol**************
+	uninitialized-state ---------- High
+	shadowing-function ---------- Low
+	incorrect-inheritance-order ---------- Low
+	integer-overflow ---------- Low
+	external-function ---------- Optimization
+writeto_arbitrarystorage.sol**************
+	uninitialized-state ---------- High
+	writeto-arbitrarystorage ---------- Medium
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	upgrade-050 ---------- Informational
+IntegerSignednessError.sol**************
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	reentrancy-limited-gas ---------- Informational
+	external-function ---------- Optimization
+	revert-require ---------- Optimization
+TOD.sol**************
+	events-maths ---------- Low
+	solc-version ---------- Informational
+	reentrancy-limited-gas ---------- Informational
+	external-function ---------- Optimization
+	visibility ---------- Informational
+timeDependence1.sol**************
+	weak-prng ---------- High
+	incorrect-equality ---------- Medium
+	integer-overflow ---------- Low
+	timestamp ---------- Low
+	solc-version ---------- Informational
+event_before_revert.sol**************
+	uninitialized-state ---------- High
+	boolean-cst ---------- Medium
+	function-problem ---------- Medium
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	constable-states ---------- Optimization
+	event-before-revert ---------- Optimization
+	external-function ---------- Optimization
+	costly-loop ---------- Medium
+	revert-require ---------- Optimization
+missing_zero_address_validation.sol**************
+	unchecked-lowlevel ---------- Medium
+	unchecked-send ---------- Medium
+	missing-zero-check ---------- Low
+	incorrect-modifier ---------- Low
+	transfer-to-zeroaddress ---------- Low
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	hardcoded ---------- Informational
+similar_names.sol**************
+	solc-version ---------- Informational
+	similar-names ---------- Informational
+	constable-states ---------- Optimization
+deleteDynamic.sol**************
+byte[].sol**************
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	array-instead-bytes ---------- Optimization
+	private-not-hidedata ---------- Informational
+weak_prng.sol**************
+	weak-prng ---------- High
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	incorrect-blockhash ---------- Low
+modifier_reentrancy.sol**************
+Incorrect_Inheritance_order.sol**************
+	hardcoded ---------- Informational
+	deprecated-standards ---------- Informational
+	erc20-approve ---------- Medium
+	private-not-hidedata ---------- Informational
+	safemath ---------- Informational
+	visibility ---------- Informational
+reentrancy_limited_gas.sol**************
+	reentrancy-eth ---------- High
+	integer-overflow ---------- Low
+	missing-zero-check ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	reentrancy-limited-gas ---------- Informational
+	external-function ---------- Optimization
+	visibility ---------- Informational
+assemblycall_rewrite.sol**************
+unstandardERC721.sol**************
+	uninitialized-state ---------- High
+	constant-function-state ---------- Medium
+	erc721-interface ---------- Medium
+	locked-ether ---------- Medium
+	writeto-arbitrarystorage ---------- Medium
+	incorrect-inheritance-order ---------- Low
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	private-not-hidedata ---------- Informational
+	safemath ---------- Informational
+array_by_reference.sol**************
+	array-by-reference ---------- High
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+uninitStateVar.sol**************
+	uninitialized-state ---------- High
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	constable-states ---------- Optimization
+incorrect_equality.sol**************
+	arbitrary-send ---------- High
+	incorrect-equality ---------- Medium
+	block-other-parameters ---------- Low
+	integer-overflow ---------- Low
+	timestamp ---------- Low
+	solc-version ---------- Informational
+ReEntrancy_attack.sol**************
+complexFallback.sol**************
+	extra-gas-inloops ---------- Optimization
+	costly-loop ---------- Medium
+multiple_constructors.sol**************
+	multiple-constructors ---------- High
+shadowing_builtin.sol**************
+Short_Address_Attack.sol**************
+	locked-ether ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+badDelegate.sol**************
+	controlled-delegatecall ---------- High
+	unchecked-lowlevel ---------- Medium
+	missing-zero-check ---------- Low
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	external-function ---------- Optimization
+void_constructors.sol**************
+	void-cst ---------- Low
+	solc-version ---------- Informational
+Delegatecall_Untrusted_callee.sol**************
+	controlled-delegatecall ---------- High
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	upgrade-050 ---------- Informational
+replayAttack2.sol**************
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	revert-require ---------- Optimization
+SuicideEasily.sol**************
+	suicidal ---------- High
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+division_overflow_NoError.sol**************
+	revert-require ---------- Optimization
+	safemath ---------- Informational
+	visibility ---------- High
+uninitialized_storage.sol**************
+	upgrade-050 ---------- Informational
+	visibility ---------- High
+tx_origin.sol**************
+costly_loop.sol**************
+	arbitrary-send ---------- High
+	controlled-array-length ---------- High
+	unchecked-lowlevel ---------- Medium
+	integer-overflow ---------- Low
+	calls-loop ---------- Low
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	extra-gas-inloops ---------- Optimization
+	costly-loop ---------- Medium
+	overpowered-role ---------- Informational
+integer_overflow.sol**************
+	assert-violation ---------- Medium
+	uninitialized-local ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	revert-require ---------- Optimization
+	safemath ---------- Informational
+	visibility ---------- Informational
+approve.sol**************
+	solc-version ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	unused-state ---------- Optimization
+	erc20-approve ---------- Medium
+	private-not-hidedata ---------- Informational
+	safemath ---------- Informational
+erc721_interface.sol**************
+	erc721-interface ---------- Medium
+	solc-version ---------- Informational
+missing_events_arithmetic.sol**************
+	uninitialized-state ---------- High
+	integer-overflow ---------- Low
+	events-maths ---------- Low
+	missing-zero-check ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	hardcoded ---------- Informational
+shadowingState.sol**************
+	shadowing-state ---------- High
+	uninitialized-state ---------- High
+	constable-states ---------- Optimization
+TokenSale.sol**************
+	shadowing-state ---------- High
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	unused-state ---------- Optimization
+	visibility ---------- Informational
+deprecated_simple.sol**************
+	suicidal ---------- High
+	constant-function-state ---------- Medium
+	unchecked-lowlevel ---------- Medium
+	shadowing-builtin ---------- Low
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	external-function ---------- Optimization
+	incorrect-blockhash ---------- Low
+	revert-require ---------- Optimization
+prodigal.sol**************
+	arbitrary-send ---------- High
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+erc20_indexed.sol**************
+	solc-version ---------- Informational
+	erc20-indexed ---------- Informational
+unhandledException.sol**************
+	controlled-array-length ---------- High
+	unchecked-lowlevel ---------- Medium
+	calls-loop ---------- Low
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+	costly-loop ---------- Medium
+visibility_not_set.sol**************
+	visibility ---------- High
+shadowing_state.sol**************
+	visibility ---------- Informational
+msgvalue_equals_zero.sol**************
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	msgvalue-equals-zero ---------- Informational
+	visibility ---------- Informational
+DOS_send_loop.sol**************
+	uninitialized-state ---------- High
+	uninitialized-local ---------- Medium
+	calls-loop ---------- Low
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	external-function ---------- Optimization
+	hardcoded ---------- Informational
+	extra-gas-inloops ---------- Optimization
+	costly-loop ---------- Medium
+	private-not-hidedata ---------- Informational
+	send-transfer ---------- Optimization
+	visibility ---------- Informational
+uninitialized_state.sol**************
+DOS_gaslimit.sol**************
+	controlled-array-length ---------- High
+	uninitialized-local ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	extra-gas-inloops ---------- Optimization
+	costly-loop ---------- Medium
+Overwriting_Arbitrary_Storagevariables.sol**************
+overpowered_role.sol**************
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	overpowered-role ---------- Informational
+	visibility ---------- Informational
+constructor_return.sol**************
+	arbitrary-send ---------- High
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	constructor-return ---------- Medium
+	assembly ---------- Informational
+UncappedVersion.sol**************
+	solc-version ---------- Informational
+	constable-states ---------- Optimization
+extcodesize_invoke.sol**************
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	assembly ---------- Informational
+	extcodesize-invoke ---------- Low
+erc1155_interface.sol**************
+ArbitraryWrite.sol**************
+	private-not-hidedata ---------- Informational
+Replay_attack.sol**************
+unchecked_lowlevel.sol**************
+	unchecked-lowlevel ---------- Medium
+	missing-zero-check ---------- Low
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+	revert-require ---------- Optimization
+	upgrade-050 ---------- Informational
+incorrect_blockhash.sol**************
+default_return_value.sol**************
+	default-return-value ---------- Medium
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+Unprotected Ether Withdrawal.sol**************
+	arbitrary-send ---------- High
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	visibility ---------- Informational
+function_problem.sol**************
+	function-problem ---------- Medium
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	redundant-statements ---------- Optimization
+	revert-require ---------- Optimization
+	visibility ---------- Informational
+Storage_Variabletomemory.sol**************
+reentrancy_eth.sol**************
+	reentrancy-eth ---------- High
+	erc20-interface ---------- Medium
+	integer-overflow ---------- Low
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	external-function ---------- Optimization
+	private-not-hidedata ---------- Informational
+	revert-require ---------- Optimization
+	upgrade-050 ---------- Informational
+	visibility ---------- Informational
+deprecated_standards.sol**************
+returnInCons.sol**************
+	arbitrary-send ---------- High
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	constructor-return ---------- Medium
+	assembly ---------- Informational
+divide_before_multiply.sol**************
+	divide-before-multiply ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	constable-states ---------- Optimization
+Overflow.sol**************
+	default-return-value ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	private-not-hidedata ---------- Informational
+calls_inloop.sol**************
+	calls-loop ---------- Low
+	solc-version ---------- Informational
+	extra-gas-inloops ---------- Optimization
+	costly-loop ---------- Medium
+	upgrade-050 ---------- Informational
+visibility_0.5.0.sol**************
+	visibility ---------- High
+old_blockhash.sol**************
+code_no_effects.sol**************
+badTxorigin.sol**************
+	arbitrary-send ---------- High
+	tx-origin ---------- Medium
+	solc-version ---------- Informational
+typo_simple.sol**************
+multiple_calls_in_transaction.sol**************
+guess_the_random_number.sol**************
+	arbitrary-send ---------- High
+	incorrect-equality ---------- Medium
+	block-other-parameters ---------- Low
+	integer-overflow ---------- Low
+	timestamp ---------- Low
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	upgrade-050 ---------- Informational
+privatePass.sol**************
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	private-not-hidedata ---------- Informational
+incorrect_constructor_name.sol**************
+shadowing_abstract.sol**************
+Unchecked_returnValue_error.sol**************
+	unchecked-lowlevel ---------- Medium
+	missing-zero-check ---------- Low
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	external-function ---------- Optimization
+	upgrade-050 ---------- Informational
+hiddenSymbol.sol**************
+	shadowing-builtin ---------- Low
+	solc-version ---------- Informational
+naming_convention.sol**************
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	unused-state ---------- Optimization
+	private-not-hidedata ---------- Informational
+reused_constructor.sol**************
+	reused-constructor ---------- Medium
+	incorrect-inheritance-order ---------- Low
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+upgrade_050.sol**************
+	upgrade-050 ---------- Informational
+	visibility ---------- High
+erc20_approve.sol**************
+reentrancy_events.sol**************
+	reentrancy-events ---------- Low
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+simple_dao.sol**************
+	reentrancy-eth ---------- High
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	external-function ---------- Optimization
+	upgrade-050 ---------- Informational
+KingOfTheEtherThrone.sol**************
+	controlled-array-length ---------- High
+	divide-before-multiply ---------- Medium
+	incorrect-equality ---------- Medium
+	unchecked-send ---------- Medium
+	integer-overflow ---------- Low
+	events-access ---------- Low
+	missing-zero-check ---------- Low
+	incorrect-modifier ---------- Low
+	timestamp ---------- Low
+	complex-function ---------- Informational
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+	reentrancy-limited-gas ---------- Informational
+	reentrancy-limited-events ---------- Informational
+	similar-names ---------- Informational
+	external-function ---------- Optimization
+	upgrade-050 ---------- Informational
+	visibility ---------- Informational
+Uninitialized_storage_pointer01.sol**************
+	controlled-array-length ---------- High
+	weak-prng ---------- High
+	uninitialized-storage ---------- High
+	incorrect-equality ---------- Medium
+	block-other-parameters ---------- Low
+	integer-overflow ---------- Low
+	timestamp ---------- Low
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	reentrancy-limited-gas ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	private-not-hidedata ---------- Informational
+	upgrade-050 ---------- Informational
+HardCodeAddress.sol**************
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	hardcoded ---------- Informational
+	overpowered-role ---------- Informational
+	private-not-hidedata ---------- Informational
+missing_input_validation.sol**************
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	private-not-hidedata ---------- Informational
+ArbitraryFunctionType.sol**************
+	arbitrary-send ---------- High
+	msgvalue-equals-zero ---------- Informational
+	assembly ---------- Informational
+visibility_storage.sol**************
+erc1410_interface.sol**************
+	erc1410-interface ---------- Medium
+	solc-version ---------- Informational
+jump_arbitrary_instruction.sol**************
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	assembly ---------- Informational
+short_address_attack_NoError .sol**************
+	visibility ---------- Informational
+transfer_to_zeroaddress.sol**************
+	uninitialized-state ---------- High
+	transfer-to-zeroaddress ---------- Low
+	solc-version ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	revert-require ---------- Optimization
+	visibility ---------- Informational
+publicToExternal.sol**************
+	arbitrary-send ---------- High
+	timestamp ---------- Low
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+suicidal.sol**************
+	suicidal ---------- High
+	uninitialized-state ---------- High
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+shortAddressAttack.sol**************
+	writeto-arbitrarystorage ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	safemath ---------- Informational
+name_reused.sol**************
+	visibility ---------- Informational
+	names-reused ---------- High
+ImmutableConstant.sol**************
+unimplemented_functions.sol**************
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	unimplemented-functions ---------- Informational
+repeat_call.sol**************
+ImplicitVisibility1.sol**************
+token_with_backdoor.sol**************
+	assert-violation ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	visibility ---------- Informational
+simple_suicide.sol**************
+	suicidal ---------- High
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	external-function ---------- Optimization
+	visibility ---------- Informational
+MissConstructor.sol**************
+	incorrect-constructor ---------- High
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+block_other_parameters_number.sol**************
+	arbitrary-send ---------- High
+	incorrect-equality ---------- Medium
+	block-other-parameters ---------- Low
+	integer-overflow ---------- Low
+	timestamp ---------- Low
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	upgrade-050 ---------- Informational
+ReEntrancy.sol**************
+simpledschief.sol**************
+	assert-violation ---------- Medium
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+storage_array.sol**************
+	storage-array ---------- High
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	typographical-error ---------- Medium
+send_transfer.sol**************
+	uninitialized-state ---------- High
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	revert-require ---------- Optimization
+	send-transfer ---------- Optimization
+unused_state.sol**************
+redundant_fallback.sol**************
+Authorization_through_tx.origin.sol**************
+	arbitrary-send ---------- High
+	tx-origin ---------- Medium
+	missing-zero-check ---------- Low
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+unchecked_send.sol**************
+	send-transfer ---------- Optimization
+erc777_interface.sol**************
+	erc777-interface ---------- Medium
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	upgrade-050 ---------- Informational
+assembly_0.5.1.sol**************
+	constant-function-state ---------- Medium
+	default-return-value ---------- Medium
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	assembly ---------- Informational
+GuessEachOtherNumber.sol**************
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	private-not-hidedata ---------- Informational
+uninitLocalVar.sol**************
+	arbitrary-send ---------- High
+	uninitialized-local ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+modulo_overflow.sol**************
+token_error.sol**************
+	erc20-approve ---------- Medium
+	revert-require ---------- Optimization
+	visibility ---------- High
+abiencoder_array.sol**************
+	upgrade-050 ---------- Informational
+	visibility ---------- Informational
+tokensalechallenge.sol**************
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+external_function.sol**************
+Forced_ether.sol**************
+	arbitrary-send ---------- High
+	incorrect-equality ---------- Medium
+	missing-zero-check ---------- Low
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+unstandardERC20.sol**************
+	assert-violation ---------- Medium
+	default-return-value ---------- Medium
+	erc20-interface ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	erc20-approve ---------- Medium
+ConstBalanceInLoop.sol**************
+badProxy.sol**************
+	controlled-delegatecall ---------- High
+	unchecked-lowlevel ---------- Medium
+	missing-zero-check ---------- Low
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+low_level_calls.sol**************
+	controlled-delegatecall ---------- High
+	uninitialized-state ---------- High
+	assert-violation ---------- Medium
+	locked-ether ---------- Medium
+	unchecked-lowlevel ---------- Medium
+	unchecked-send ---------- Medium
+	integer-overflow ---------- Low
+	missing-zero-check ---------- Low
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	revert-require ---------- Optimization
+	send-transfer ---------- Optimization
+	visibility ---------- Informational
+redundant_fallback_0.3.0.sol**************
+	redundant-fallback ---------- High
+runtime_create_user_input.sol**************
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	visibility ---------- Informational
+typographical_error.sol**************
+	typographical-error ---------- Medium
+variableNotSafe.sol**************
+bank.sol**************
+constable_states.sol**************
+	solc-version ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	unused-state ---------- Optimization
+	hardcoded ---------- Informational
+complex_function.sol**************
+return_memory.sol**************
+	assert-violation ---------- Medium
+	boolean-cst ---------- Medium
+	default-return-value ---------- Medium
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+SigWrongPara_NoError.sol**************
+	private-not-hidedata ---------- Informational
+tooManyDigits.sol**************
+	controlled-array-length ---------- High
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	too-many-digits ---------- Informational
+	constable-states ---------- Optimization
+MappingDeletion.sol**************
+	mapping-deletion ---------- Medium
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+assert_violation.sol**************
+unused_return.sol**************
+	controlled-delegatecall ---------- High
+	suicidal ---------- High
+	unchecked-lowlevel ---------- Medium
+	unused-return ---------- Medium
+	integer-overflow ---------- Low
+	missing-zero-check ---------- Low
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+	unimplemented-functions ---------- Informational
+	external-function ---------- Optimization
+	safemath ---------- Informational
+	visibility ---------- Informational
+constant_function_state_2.sol**************
+	constant-function-state ---------- Medium
+	integer-overflow ---------- Low
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+shift_parameter_mixup.sol**************
+	solc-version ---------- Informational
+	assembly ---------- Informational
+	shift-parameter-mixup ---------- Medium
+shadowing_local.sol**************
+	shadowing-local ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	unused-state ---------- Optimization
+enum_conversion.sol**************
+integerDivision.sol**************
+	divide-before-multiply ---------- Medium
+	integer-overflow ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	overpowered-role ---------- Informational
+public_mappings_nested.sol**************
+	public-mappings-nested ---------- High
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	similar-names ---------- Informational
+	external-function ---------- Optimization
+timeDependence.sol**************
+	incorrect-equality ---------- Medium
+	timestamp ---------- Low
+	solc-version ---------- Informational
+	boolean-equal ---------- Optimization
+	external-function ---------- Optimization
+	private-not-hidedata ---------- Informational
+HashCollision.sol**************
+	constant-function-state ---------- Medium
+	mul-var-len-arguments ---------- Medium
+	complex-function ---------- Informational
+	solc-version ---------- Informational
+	extra-gas-inloops ---------- Optimization
+	costly-loop ---------- Medium
+	revert-require ---------- Optimization
+	assembly ---------- Informational
+shadowing_function.sol**************
+	shadowing-function ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	visibility ---------- Informational
+MissConstructor1.sol**************
+replayAttack1.sol**************
+	constant-function-state ---------- Medium
+	integer-overflow ---------- Low
+	signature-malleability ---------- Low
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	costly-loop ---------- Medium
+	assembly ---------- Informational
+uninitialized_storage_NoError.sol**************
+	uninitialized-storage ---------- High
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	unused-state ---------- Optimization
+	upgrade-050 ---------- Informational
+	visibility ---------- Informational
+signedness_overflow.sol**************
+Overwhelming.sol**************
+	overpowered-role ---------- Informational
+	private-not-hidedata ---------- Informational
+dowhileContinue.sol**************
+constant_function_state_1.sol**************
+abuse_boolean_constants.sol**************
+	costly-loop ---------- Medium
+	visibility ---------- Informational
+incorrect_modifier.sol**************
+	uninitialized-state ---------- High
+	unchecked-send ---------- Medium
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+	constable-states ---------- Optimization
+	external-function ---------- Optimization
+	visibility ---------- Informational
+requirement_simple.sol**************
+missing_events_access_control.sol**************
+erc621_interface.sol**************
+boolean.sol**************
+	uninitialized-state ---------- High
+	boolean-cst ---------- Medium
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	constable-states ---------- Optimization
+	costly-operations-loop ---------- Optimization
+	unused-state ---------- Optimization
+	costly-loop ---------- Medium
+	visibility ---------- Informational
+unprotected_upgrade.sol**************
+	unprotected-upgrade ---------- High
+	solc-version ---------- Informational
+	low-level-calls ---------- Informational
+	naming-convention ---------- Informational
+incorrect_constructor.sol**************
+	incorrect-constructor ---------- High
+	function-problem ---------- Medium
+	solc-version ---------- Informational
+	naming-convention ---------- Informational
+	external-function ---------- Optimization
+	redundant-fallback ---------- Optimization
+	visibility ---------- Informational
+erc875_interface.sol**************
+	erc875-interface ---------- Medium
+	shadowing-local ---------- Low
+	deprecated-standards ---------- Informational
+	solc-version ---------- Informational
+	external-function ---------- Optimization
+	upgrade-050 ---------- Informational
+	visibility ---------- Informational
+mul_var_len_arguments.sol**************
+	mul-var-len-arguments ---------- Medium
+	solc-version ---------- Informational
+rtlo.sol**************
+	arbitrary-send ---------- High
+	rtlo ---------- High
+	uninitialized-state ---------- High
+	default-return-value ---------- Medium
+	solc-version ---------- Informational
+	constable-states ---------- Optimization

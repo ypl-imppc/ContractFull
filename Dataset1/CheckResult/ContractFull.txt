@@ -1,0 +1,1922 @@
+incorrect-signature.sol**************
+	incorrect-signature----------High
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	missing-zero-check----------High
+	upgrade_0.5.0----------Low
+	external-function----------Low
+	solc-version----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+arbitrary-send.sol**************
+	arbitrary-send----------High
+	unchecked-send----------High
+	integer-overflow/underflow----------High
+	low-level-calls----------High
+	unused-return----------Medium
+	event-access----------Low
+	state-default-visibility----------Low
+	external-function----------Low
+	solc-version----------Low
+	constable-variable----------Low
+	variable-scope----------Low
+pragma-solc-version.sol**************
+	redundant_fallback----------Medium
+	void-constructor----------Low
+	pragma----------Low
+PreSentEther.sol**************
+	locked-ether----------High
+	integer-overflow/underflow----------High
+	incorrect-equality----------Medium
+	solc-version----------Low
+	pre-sent-ether----------Low
+truncationError.sol**************
+	truncation-overflow----------High
+	constant_Function_State----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	variable-scope----------Low
+tautology-loop.sol**************
+	integer-overflow/underflow----------High
+	tautology----------Low
+	void-constructor----------Low
+	solc-version----------Low
+private-not-hidedata.sol**************
+	arbitrary-send----------High
+	locked-ether----------High
+	integer-overflow/underflow----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	private-not-hidedata----------Medium
+	external-function----------Low
+	solc-version----------Low
+	pre-sent-ether----------Low
+	uninitialized-storage----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+uninitialized-ptr-constructor.sol**************
+	uninitialized-localvar----------Medium
+	similar-names----------Low
+	shadowing-local----------Low
+	solc-version----------Low
+	uninitialized_fptr_constructor----------Low
+	variable-scope----------Low
+	uninitialized-storage----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+erc20-throw.sol**************
+	integer-overflow/underflow----------High
+	short-address-attack----------Low
+	erc20-throw----------Low
+	nonstandard-token-using(no_approval())----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+erc223-interface.sol**************
+	erc223-interface----------Medium
+	unused-return----------Medium
+	constant_Function_State----------Low
+	short-address-attack----------Low
+	external-function----------Low
+	deprecated_Standard----------Low
+GuessStatic.sol**************
+	arbitrary-send----------High
+	incorrect-equality----------Medium
+	timestamp----------Low
+	block-other-parameters----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+length-manipulation.sol**************
+	low-level-calls----------High
+	length-manipulation----------Medium
+	unused-return----------Medium
+	calls-inloop----------Low
+	external-function----------Low
+	deprecated_Standard----------Low
+	extra-gas-inloops----------Low
+	solc-version----------Low
+	revert-require----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+	costly_loop----------Low
+revert-require.sol**************
+	wasteful-contract----------High
+	arbitrary-send----------High
+	locked-ether----------High
+	integer-overflow/underflow----------High
+	incorrect-constructor----------High
+	timestamp----------Low
+	naming-convention----------Low
+	external-function----------Low
+	solc-version----------Low
+	revert-require----------Low
+wasteful-contract.sol**************
+	wasteful-contract----------High
+	arbitrary-send----------High
+	visibility----------Low
+	solc-version----------Low
+	void-constructor----------Low
+SigWrongPara.sol**************
+	incorrect-equality----------Medium
+	wrong-parameter-signature----------Medium
+	private-not-hidedata----------Medium
+	solc-version----------Low
+	naming-convention----------Low
+constant-function-state.sol**************
+	arbitrary-send----------High
+	unchecked-send----------High
+	low-level-calls----------High
+	missing-zero-check----------High
+	unused-return----------Medium
+	code-no-effect----------Low
+	shadowing-local----------Low
+	redundant-statements----------Low
+	constant_Function_State----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+DangerousRandomNumbers.sol**************
+	arbitrary-send----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	timestamp----------Low
+	block-other-parameters----------Low
+	constant_Function_State----------Low
+	external-function----------Low
+	solc-version----------Low
+	state-default-visibility----------Low
+lockedMoney.sol**************
+	locked-ether----------High
+	pre-sent-ether----------Low
+	void-constructor----------Low
+	solc-version----------Low
+continue-in-loop.sol**************
+	unused-return----------Medium
+	external-function----------Low
+	continue-In-DoWhile----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+wrongName.sol**************
+	locked-ether----------High
+	incorrect-equality----------Medium
+	arbitrary-storagelocation-write----------Low
+	controlled-array-length----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+ERC827.sol**************
+	locked-ether----------High
+	unchecked-lowlevelCall----------High
+	erc827_prohibited-contractual-standards----------High
+	uninitialized-localvar----------Medium
+	upgrade_0.5.0----------Low
+	external-function----------Low
+	variable-scope----------Low
+timestamp.sol**************
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	timestamp----------Low
+	default-return-value----------Low
+	solc-version----------Low
+	variable-scope----------Low
+	void-constructor----------Low
+integer-overflow01.sol**************
+	integer-overflow/underflow----------High
+	uninitialized-localvar----------Medium
+	assert_violation----------Medium
+	unused-return----------Medium
+	solc-version----------Low
+	revert-require----------Low
+	void-constructor----------Low
+ParticipantTracker.sol**************
+	integer-overflow/underflow----------High
+	tautology----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+redundant-statements.sol**************
+	redundant-statements----------Low
+	external-function----------Low
+	solc-version----------Low
+	unused-var----------Low
+	uninitialized-state----------Low
+	state-default-visibility----------Low
+confused-sign.sol**************
+	wasteful-contract----------High
+	locked-ether----------High
+	missing-zero-check----------High
+	incorrect-equality----------Medium
+	reentrancy-limited-gas----------Medium
+	assert_violation----------Medium
+	external-function----------Low
+	solc-version----------Low
+	pre-sent-ether----------Low
+	state-default-visibility----------Low
+state-default-visibility.sol**************
+	short-address-attack----------Low
+	external-function----------Low
+	state-default-visibility----------Low
+	uninitialized-state----------Low
+	void-constructor----------Low
+PushButNoPull.sol**************
+	low-level-calls----------High
+	length-manipulation----------Medium
+	arbitrary-storagelocation-write----------Low
+	calls-inloop----------Low
+	external-function----------Low
+	extra-gas-inloops----------Low
+	solc-version----------Low
+	send-transfer----------Low
+	naming-convention----------Low
+	costly_loop----------Low
+boolean-equal.sol**************
+	incorrect-constructor----------High
+	incorrect-equality----------Medium
+	assert_violation----------Medium
+	unused-return----------Medium
+	similar-names----------Low
+	boolean-equal----------Low
+	solc-version----------Low
+	variable-scope----------Low
+	abuse-boolean-constant----------Low
+	unused-var----------Low
+	uninitialized-state----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+Uninitialized-storage-pointer.sol**************
+	uninitialized-localvar----------Medium
+	external-function----------Low
+	uninitialized-storage-pointer----------Low
+	solc-version----------Low
+	abuse-boolean-constant----------Low
+	public-mapping-nested----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+UncappedVersion1.sol**************
+	unused-var----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+	solc-version----------Low
+extra-gas-inloops.sol**************
+	integer-overflow/underflow----------High
+	length-manipulation----------Medium
+	unused-return----------Medium
+	constant_Function_State----------Low
+	state-default-visibility----------Low
+	external-function----------Low
+	extra-gas-inloops----------Low
+	solc-version----------Low
+	constable-variable----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+	costly_loop----------Low
+erc20-interface.sol**************
+	erc20-interface----------Medium
+	unused-return----------Medium
+	visibility----------Low
+	constant_Function_State----------Low
+	erc20-throw----------Low
+	short-address-attack----------Low
+	deprecated_Standard----------Low
+	solc-version----------Low
+	unused-var----------Low
+underFlow.sol**************
+	constant_Function_State----------Low
+	short-address-attack----------Low
+	default-return-value----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+Incorrect-Inheritance-order1.sol**************
+	low-level-calls----------High
+	state-default-visibility----------Low
+	unimplemented-function----------Low
+	constable-variable----------Low
+	naming-convention----------Low
+	incorrect-inheritance-order----------Low
+	void-constructor----------Low
+variableScope.sol**************
+	integer-overflow/underflow----------High
+	incorrect-equality----------Medium
+	modulo-overflow----------Medium
+	external-function----------Low
+	solc-version----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+return-struct.sol**************
+	default-return-value----------Low
+	solc-version----------Low
+	abuse-boolean-constant----------Low
+	return-struct----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+callstack.sol**************
+	integer-overflow/underflow----------High
+	unused-return----------Medium
+	callstack----------Low
+	external-function----------Low
+	solc-version----------Low
+	uninitialized-state----------Low
+	void-constructor----------Low
+privateModifier.sol**************
+	arbitrary-send----------High
+	locked-ether----------High
+	integer-overflow/underflow----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	private-not-hidedata----------Medium
+	external-function----------Low
+	solc-version----------Low
+	pre-sent-ether----------Low
+	uninitialized-storage----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+division-overflow.sol**************
+	incorrect-equality----------Medium
+	division-overflow----------Medium
+	external-function----------Low
+	solc-version----------Low
+	revert-require----------Low
+	variable-scope----------Low
+	event-maths----------Low
+Incorrect-Inheritance-Order.sol**************
+	integer-overflow/underflow----------High
+	similar-names----------Low
+	external-function----------Low
+	unimplemented-function----------Low
+	uninitialized-state----------Low
+	incorrect-inheritance-order----------Low
+	void-constructor----------Low
+	event-maths----------Low
+writeto-arbitrarystorage.sol**************
+	incorrect-equality----------Medium
+	uninitialized-localvar----------Medium
+	unused-return----------Medium
+	similar-names----------Low
+	constant_Function_State----------Low
+	external-function----------Low
+	solc-version----------Low
+	variable-scope----------Low
+	uninitialized-state----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+IntegerSignednessError.sol**************
+	modulo-overflow----------Medium
+	reentrancy-limited-gas----------Medium
+	unused-return----------Medium
+	naming-convention----------Low
+	solc-version----------Low
+	abuse-boolean-constant----------Low
+	revert-require----------Low
+TOD.sol**************
+	incorrect-equality----------Medium
+	reentrancy-limited-gas----------Medium
+	event-access----------Low
+	external-function----------Low
+	solc-version----------Low
+	abuse-boolean-constant----------Low
+timeDependence1.sol**************
+	integer-overflow/underflow----------High
+	incorrect-equality----------Medium
+	divide-before-multiply----------Medium
+	modulo-overflow----------Medium
+	weak-prng----------Medium
+	timestamp----------Low
+	code-no-effect----------Low
+	solc-version----------Low
+	variable-scope----------Low
+event-before-revert.sol**************
+	incorrect-equality----------Medium
+	external-function----------Low
+	event-before-revert----------Low
+	solc-version----------Low
+	function-problem----------Low
+	uninitialized-state----------Low
+	revert-require----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+missing-zero-address-validation.sol**************
+	transfer-to-zeroaddress----------High
+	locked-ether----------High
+	unchecked-send----------High
+	unhandled-exception----------High
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	missing-zero-check----------High
+	incorrect-equality----------Medium
+	code-no-effect----------Low
+	event-access----------Low
+	state-default-visibility----------Low
+	external-function----------Low
+	solc-version----------Low
+	send-transfer----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+similar-names.sol**************
+	similar-names----------Low
+	state-default-visibility----------Low
+	solc-version----------Low
+	unused-var----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+deleteDynamic.sol**************
+	locked-ether----------High
+	overpowered-role----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	similar-names----------Low
+	arbitrary-storagelocation-write----------Low
+	calls-inloop----------Low
+	dynamic-arrays-delete----------Low
+	solc-version----------Low
+	pre-sent-ether----------Low
+	naming-convention----------Low
+	costly_loop----------Low
+byte[].sol**************
+	private-not-hidedata----------Medium
+	byte[]----------Low
+	naming-convention----------Low
+	solc-version----------Low
+weak-prng.sol**************
+	modulo-overflow----------Medium
+	weak-prng----------Medium
+	unused-return----------Medium
+	external-function----------Low
+	solc-version----------Low
+	variable-scope----------Low
+	void-constructor----------Low
+modifier-reentrancy.sol**************
+	integer-overflow/underflow----------High
+	reentrancy-no-eth----------Medium
+	unused-return----------Medium
+	upgrade_0.5.0----------Low
+	external-function----------Low
+	solc-version----------Low
+	unused-var----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+Incorrect-Inheritance-order.sol**************
+	erc20-approve----------High
+	incorrect-constructor----------High
+	locked-ether----------High
+	unused-return----------Medium
+	reentrancy-events----------Medium
+	private-not-hidedata----------Medium
+	incorrect-equality----------Medium
+	constant_Function_State----------Low
+	multiple-calls-in-transaction----------Low
+	short-address-attack----------Low
+	external-function----------Low
+	unimplemented-function----------Low
+	deprecated_Standard----------Low
+	shadowing-function----------Low
+	block-other-parameters----------Low
+	visibility----------Low
+	solc-version----------Low
+	abuse-boolean-constant----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+	incorrect-inheritance-order----------Low
+	uninitialized-storage----------Low
+reentrancy-limited-gas.sol**************
+	reentrancy-eth----------High
+	locked-ether----------High
+	integer-overflow/underflow----------High
+	missing-zero-check----------High
+	reentrancy-limited-gas----------Medium
+	unused-return----------Medium
+	visibility----------Low
+	short-address-attack----------Low
+	solc-version----------Low
+	pre-sent-ether----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+assemblycall-rewrite.sol**************
+	constant_Function_State----------Low
+	solc-version----------Low
+	assemblyCall-rewrite----------Low
+	variable-scope----------Low
+	void-constructor----------Low
+unstandardERC721.sol**************
+	locked-ether----------High
+	incorrect-equality----------Medium
+	erc1155-interface----------Medium
+	unused-return----------Medium
+	erc721-interface----------Medium
+	private-not-hidedata----------Medium
+	similar-names----------Low
+	incorrect-inheritance-order----------Low
+	external-function----------Low
+	unimplemented-function----------Low
+	variable-scope----------Low
+	abuse-boolean-constant----------Low
+	naming-convention----------Low
+	shadowing-function----------Low
+array-by-reference.sol**************
+	integer-overflow/underflow----------High
+	unused-return----------Medium
+	similar-names----------Low
+	external-function----------Low
+	solc-version----------Low
+	array-by-reference----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+uninitStateVar.sol**************
+	locked-ether----------High
+	solc-version----------Low
+	uninitialized-state----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+incorrect-equality.sol**************
+	arbitrary-send----------High
+	integer-overflow/underflow----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	similar-names----------Low
+	timestamp----------Low
+	block-other-parameters----------Low
+	constant_Function_State----------Low
+	external-function----------Low
+	nonstandard-token-using(no_approval())----------Low
+	shadowing-builtin----------Low
+	solc-version----------Low
+	unused-var----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+ReEntrancy-attack.sol**************
+	wasteful-contract----------High
+	locked-ether----------High
+	unused-return----------Medium
+	visibility----------Low
+	external-function----------Low
+complexFallback.sol**************
+	length-manipulation----------Medium
+	incorrect-equality----------Medium
+	calls-inloop----------Low
+	extra-gas-inloops----------Low
+	complex-fallback----------Low
+	constable-variable----------Low
+	costly_loop----------Low
+multiple-constructors.sol**************
+	multiple-constructors----------Medium
+	external-function----------Low
+	state-default-visibility----------Low
+shadowing-builtin.sol**************
+	uninitialized-localvar----------Medium
+	unused-return----------Medium
+	similar-names----------Low
+	external-function----------Low
+	unimplemented-function----------Low
+	shadowing-builtin----------Low
+	solc-version----------Low
+	unused-var----------Low
+	uninitialized-state----------Low
+	constable-variable----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+Short-Address-Attack.sol**************
+	locked-ether----------High
+	integer-overflow/underflow----------High
+	unused-return----------Medium
+	short-address-attack----------Low
+	external-function----------Low
+	solc-version----------Low
+	pre-sent-ether----------Low
+	unused-var----------Low
+	uninitialized-state----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+badDelegate.sol**************
+	controlled-delegatecall----------High
+	unhandled-exception----------High
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	missing-zero-check----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	external-function----------Low
+	solc-version----------Low
+void-constructors.sol**************
+	unimplemented-function----------Low
+	void-constructor----------Low
+	solc-version----------Low
+Delegatecall-Untrusted-callee.sol**************
+	controlled-delegatecall----------High
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	unused-return----------Medium
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+replayAttack2.sol**************
+	incorrect-equality----------Medium
+	wrong-parameter-signature----------Medium
+	external-function----------Low
+	solc-version----------Low
+	function-problem----------Low
+	naming-convention----------Low
+	variable-scope----------Low
+SuicideEasily.sol**************
+	suicidal----------High
+	low-level-calls----------High
+	unused-return----------Medium
+	solc-version----------Low
+	naming-convention----------Low
+division-overflow-NoError.sol**************
+	incorrect-equality----------Medium
+	external-function----------Low
+	revert-require----------Low
+	variable-scope----------Low
+	event-maths----------Low
+uninitialized-storage.sol**************
+	uninitialized-localvar----------Medium
+	unused-return----------Medium
+	visibility----------Low
+	unused-var----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+tx-origin.sol**************
+	arbitrary-send----------High
+	tx-origin----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	external-function----------Low
+	solc-version----------Low
+	revert-require----------Low
+	state-default-visibility----------Low
+costly-loop.sol**************
+	locked-ether----------High
+	arbitrary-send----------High
+	integer-overflow/underflow----------High
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	length-manipulation----------Medium
+	incorrect-equality----------Medium
+	arbitrary-storagelocation-write----------Low
+	calls-inloop----------Low
+	state-default-visibility----------Low
+	controlled-array-length----------Low
+	extra-gas-inloops----------Low
+	solc-version----------Low
+	variable-scope----------Low
+	costly_loop----------Low
+integer-overflow.sol**************
+	integer-overflow/underflow----------High
+	divide-before-multiply----------Medium
+	uninitialized-localvar----------Medium
+	assert_violation----------Medium
+	unused-return----------Medium
+	visibility----------Low
+	constant_Function_State----------Low
+	solc-version----------Low
+	revert-require----------Low
+	void-constructor----------Low
+approve.sol**************
+	incorrect-equality----------Medium
+	private-not-hidedata----------Medium
+	constant_Function_State----------Low
+	short-address-attack----------Low
+	external-function----------Low
+	solc-version----------Low
+	unused-var----------Low
+	variable-scope----------Low
+erc721-interface.sol**************
+	erc1155-interface----------Medium
+	erc721-interface----------Medium
+	solc-version----------Low
+	unimplemented-function----------Low
+missing-events-arithmetic.sol**************
+	integer-overflow/underflow----------High
+	missing-zero-check----------High
+	incorrect-equality----------Medium
+	similar-names----------Low
+	external-function----------Low
+	solc-version----------Low
+	uninitialized-state----------Low
+	constable-variable----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+	event-maths----------Low
+shadowingState.sol**************
+	unused-return----------Medium
+	similar-names----------Low
+	shadowing-state----------Low
+	uninitialized-state----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+TokenSale.sol**************
+	incorrect-constructor----------High
+	unused-return----------Medium
+	similar-names----------Low
+	code-no-effect----------Low
+	shadowing-state----------Low
+	constant_Function_State----------Low
+	external-function----------Low
+	unimplemented-function----------Low
+	solc-version----------Low
+	unused-var----------Low
+	constable-variable----------Low
+	state-default-visibility----------Low
+deprecated-simple.sol**************
+	suicidal----------High
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	constant_Function_State----------Low
+	external-function----------Low
+	shadowing-builtin----------Low
+	deprecated_Standard----------Low
+	solc-version----------Low
+	constable-variable----------Low
+	revert-require----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+prodigal.sol**************
+	arbitrary-send----------High
+	unused-return----------Medium
+	naming-convention----------Low
+	solc-version----------Low
+erc20-indexed.sol**************
+	constant_Function_State----------Low
+	short-address-attack----------Low
+	erc20-throw----------Low
+	solc-version----------Low
+	erc20-indexed----------Low
+unhandledException.sol**************
+	locked-ether----------High
+	unhandled-exception----------High
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	incorrect-equality----------Medium
+	arbitrary-storagelocation-write----------Low
+	calls-inloop----------Low
+	controlled-array-length----------Low
+	solc-version----------Low
+	pre-sent-ether----------Low
+	naming-convention----------Low
+	variable-scope----------Low
+	costly_loop----------Low
+visibility-not-set.sol**************
+	wasteful-contract----------High
+	incorrect-equality----------Medium
+	visibility----------Low
+	void-constructor----------Low
+shadowing-state.sol**************
+	redundant_fallback----------Medium
+	unused-return----------Medium
+	similar-names----------Low
+	shadowing-state----------Low
+	shadowing-function----------Low
+	uninitialized-state----------Low
+	unused-var----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+msgvalue-equals-zero.sol**************
+	integer-overflow/underflow----------High
+	incorrect-equality----------Medium
+	solc-version----------Low
+	naming-convention----------Low
+	msgvalue-equal-zero----------Low
+	state-default-visibility----------Low
+DOS-send-loop.sol**************
+	low-level-calls----------High
+	length-manipulation----------Medium
+	arbitrary-storagelocation-write----------Low
+	calls-inloop----------Low
+	external-function----------Low
+	extra-gas-inloops----------Low
+	solc-version----------Low
+	send-transfer----------Low
+	costly_loop----------Low
+uninitialized-state.sol**************
+	short-address-attack----------Low
+	external-function----------Low
+	state-default-visibility----------Low
+	solc-version----------Low
+	uninitialized-state----------Low
+	void-constructor----------Low
+DOS-gaslimit.sol**************
+	locked-ether----------High
+	length-manipulation----------Medium
+	incorrect-equality----------Medium
+	arbitrary-storagelocation-write----------Low
+	state-default-visibility----------Low
+	external-function----------Low
+	controlled-array-length----------Low
+	extra-gas-inloops----------Low
+	solc-version----------Low
+	uninitialized-storage----------Low
+	constable-variable----------Low
+	variable-scope----------Low
+	costly_loop----------Low
+Overwriting-Arbitrary-Storagevariables.sol**************
+	integer-overflow/underflow----------High
+	tautology----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+overpowered-role.sol**************
+	overpowered-role----------High
+	incorrect-equality----------Medium
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+constructor-return.sol**************
+	arbitrary-send----------High
+	unused-return----------Medium
+	constructor-return----------Low
+	solc-version----------Low
+UncappedVersion.sol**************
+	unused-var----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+	solc-version----------Low
+extcodesize-invoke.sol**************
+	incorrect-equality----------Medium
+	extcodesize-invoke----------Low
+	similar-names----------Low
+	event-access----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+erc1155-interface.sol**************
+	erc1155-interface----------Medium
+	constant_Function_State----------Low
+ArbitraryWrite.sol**************
+	incorrect-equality----------Medium
+	private-not-hidedata----------Medium
+	arbitrary-storagelocation-write----------Low
+Replay-attack.sol**************
+	integer-overflow/underflow----------High
+	incorrect-equality----------Medium
+	upgrade_0.5.0----------Low
+	constant_Function_State----------Low
+	state-default-visibility----------Low
+	short-address-attack----------Low
+	default-return-value----------Low
+	external-function----------Low
+	signature-malleability----------Low
+	abuse-boolean-constant----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	variable-scope----------Low
+	costly_loop----------Low
+unchecked-lowlevel.sol**************
+	unhandled-exception----------High
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	missing-zero-check----------High
+	naming-convention----------Low
+	solc-version----------Low
+	revert-require----------Low
+	void-constructor----------Low
+incorrect-blockhash.sol**************
+	incorrect-blockhash----------Low
+	constant_Function_State----------Low
+	external-function----------Low
+	solc-version----------Low
+	void-constructor----------Low
+default-return-value.sol**************
+	code-no-effect----------Low
+	external-function----------Low
+	default-return-value----------Low
+	solc-version----------Low
+	variable-scope----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+Unprotected Ether Withdrawal.sol**************
+	wasteful-contract----------High
+	arbitrary-send----------High
+	visibility----------Low
+	solc-version----------Low
+	void-constructor----------Low
+function-problem.sol**************
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	redundant-statements----------Low
+	solc-version----------Low
+	function-problem----------Low
+	constable-variable----------Low
+	revert-require----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+Storage-Variabletomemory.sol**************
+	locked-ether----------High
+	unused-return----------Medium
+	similar-names----------Low
+	state-default-visibility----------Low
+	external-function----------Low
+	variable-scope----------Low
+	abuse-boolean-constant----------Low
+	void-constructor----------Low
+	storage-variable-memory----------Low
+	costly_loop----------Low
+reentrancy-eth.sol**************
+	reentrancy-eth----------High
+	integer-overflow/underflow----------High
+	low-level-calls----------High
+	unused-return----------Medium
+	private-not-hidedata----------Medium
+	visibility----------Low
+	short-address-attack----------Low
+	deprecated_Standard----------Low
+	solc-version----------Low
+	revert-require----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+deprecated-standards.sol**************
+	integer-overflow/underflow----------High
+	unchecked-lowlevelCall----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	default-return-value----------Low
+	external-function----------Low
+	deprecated_Standard----------Low
+	variable-scope----------Low
+	unused-var----------Low
+	constable-variable----------Low
+	revert-require----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+returnInCons.sol**************
+	arbitrary-send----------High
+	unused-return----------Medium
+	constructor-return----------Low
+	solc-version----------Low
+divide-before-multiply.sol**************
+	integer-overflow/underflow----------High
+	incorrect-equality----------Medium
+	divide-before-multiply----------Medium
+	assert_violation----------Medium
+	unused-return----------Medium
+	solc-version----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+Overflow.sol**************
+	integer-overflow/underflow----------High
+	private-not-hidedata----------Medium
+	external-function----------Low
+	default-return-value----------Low
+	solc-version----------Low
+	constable-variable----------Low
+calls-inloop.sol**************
+	length-manipulation----------Medium
+	calls-inloop----------Low
+	extra-gas-inloops----------Low
+	solc-version----------Low
+	state-default-visibility----------Low
+	costly_loop----------Low
+visibility-0.5.0.sol**************
+	incorrect-constructor----------High
+	unused-return----------Medium
+	code-no-effect----------Low
+	visibility----------Low
+	external-function----------Low
+	unused-var----------Low
+	uninitialized-state----------Low
+	state-default-visibility----------Low
+old-blockhash.sol**************
+	locked-ether----------High
+	incorrect-equality----------Medium
+	block-other-parameters----------Low
+	state-default-visibility----------Low
+	external-function----------Low
+	solc-version----------Low
+	uninitialized-storage----------Low
+	naming-convention----------Low
+	variable-scope----------Low
+code-no-effects.sol**************
+	locked-ether----------High
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	similar-names----------Low
+	code-no-effect----------Low
+	external-function----------Low
+	shadowing-builtin----------Low
+	solc-version----------Low
+	pre-sent-ether----------Low
+	variable-scope----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+badTxorigin.sol**************
+	arbitrary-send----------High
+	overpowered-role----------High
+	tx-origin----------High
+	incorrect-equality----------Medium
+	solc-version----------Low
+typo-simple.sol**************
+	integer-overflow/underflow----------High
+	constant_Function_State----------Low
+	external-function----------Low
+	typographical-error----------Low
+	solc-version----------Low
+	abuse-boolean-constant----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+multiple-calls-in-transaction.sol**************
+	locked-ether----------High
+	signedness-overflow----------High
+	integer-overflow/underflow----------High
+	unchecked-lowlevelCall----------High
+	private-not-hidedata----------Medium
+	event-maths----------Low
+	multiple-calls-in-transaction----------Low
+	external-function----------Low
+	shadowing-builtin----------Low
+	pre-sent-ether----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+guess-the-random-number.sol**************
+	arbitrary-send----------High
+	locked-ether----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	timestamp----------Low
+	block-other-parameters----------Low
+	constant_Function_State----------Low
+	upgrade_0.5.0----------Low
+	external-function----------Low
+	solc-version----------Low
+	state-default-visibility----------Low
+	event-maths----------Low
+privatePass.sol**************
+	private-not-hidedata----------Medium
+	nonpublic-variables-accessed-by-public/external_function----------Low
+	naming-convention----------Low
+	solc-version----------Low
+incorrect-constructor-name.sol**************
+	private-not-hidedata----------Medium
+	nonpublic-variables-accessed-by-public/external_function----------Low
+	event-access----------Low
+	external-function----------Low
+	solc-version----------Low
+	void-constructor----------Low
+shadowing-abstract.sol**************
+	shadowing-abstract----------Medium
+	external-function----------Low
+	unused-var----------Low
+	uninitialized-state----------Low
+	void-constructor----------Low
+Unchecked-returnValue-error.sol**************
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	missing-zero-check----------High
+	external-function----------Low
+	solc-version----------Low
+	void-constructor----------Low
+hiddenSymbol.sol**************
+	incorrect-equality----------Medium
+	solc-version----------Low
+naming-convention.sol**************
+	unused-return----------Medium
+	code-no-effect----------Low
+	constant_Function_State----------Low
+	external-function----------Low
+	solc-version----------Low
+	uninitialized-storage----------Low
+	unused-var----------Low
+	uninitialized-state----------Low
+	constable-variable----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+reused-constructor.sol**************
+	reused-constructor----------High
+	similar-names----------Low
+	unimplemented-function----------Low
+	solc-version----------Low
+	constable-variable----------Low
+	incorrect-inheritance-order----------Low
+	state-default-visibility----------Low
+upgrade-050.sol**************
+	upgrade_0.5.0----------Low
+	visibility----------Low
+erc20-approve.sol**************
+	erc20-approve----------High
+	incorrect-equality----------Medium
+	assert_violation----------Medium
+	private-not-hidedata----------Medium
+	constant_Function_State----------Low
+	short-address-attack----------Low
+	external-function----------Low
+	unimplemented-function----------Low
+	solc-version----------Low
+	shadowing-function----------Low
+	naming-convention----------Low
+	variable-scope----------Low
+reentrancy-events.sol**************
+	reentrancy-events----------Medium
+	code-no-effect----------Low
+	external-function----------Low
+	solc-version----------Low
+	void-constructor----------Low
+simple-dao.sol**************
+	reentrancy-eth----------High
+	locked-ether----------High
+	integer-overflow/underflow----------High
+	low-level-calls----------High
+	unused-return----------Medium
+	constant_Function_State----------Low
+	external-function----------Low
+	solc-version----------Low
+	void-constructor----------Low
+KingOfTheEtherThrone.sol**************
+	low-level-calls----------High
+	unchecked-send----------High
+	integer-overflow/underflow----------High
+	missing-zero-check----------High
+	reentrancy-limited-events----------Medium
+	divide-before-multiply----------Medium
+	reentrancy-limited-gas----------Medium
+	incorrect-equality----------Medium
+	incorrect-modifier----------Medium
+	constant_Function_State----------Low
+	default-return-value----------Low
+	deprecated_Standard----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+	timestamp----------Low
+	visibility----------Low
+	solc-version----------Low
+	variable-scope----------Low
+	arbitrary-storagelocation-write----------Low
+	controlled-array-length----------Low
+	uninitialized-storage----------Low
+Uninitialized-storage-pointer01.sol**************
+	low-level-calls----------High
+	integer-overflow/underflow----------High
+	reentrancy-limited-gas----------Medium
+	unused-return----------Medium
+	weak-prng----------Medium
+	private-not-hidedata----------Medium
+	incorrect-equality----------Medium
+	modulo-overflow----------Medium
+	uninitialized-localvar----------Medium
+	event-access----------Low
+	event-maths----------Low
+	external-function----------Low
+	timestamp----------Low
+	block-other-parameters----------Low
+	solc-version----------Low
+	uninitialized-storage-pointer----------Low
+	arbitrary-storagelocation-write----------Low
+	controlled-array-length----------Low
+	constable-variable----------Low
+HardCodeAddress.sol**************
+	incorrect-equality----------Medium
+	private-not-hidedata----------Medium
+	nonpublic-variables-accessed-by-public/external_function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+missing-input-validation.sol**************
+	missing-input-validation----------High
+	integer-overflow/underflow----------High
+	private-not-hidedata----------Medium
+	external-function----------Low
+	shadowing-builtin----------Low
+	solc-version----------Low
+	pre-sent-ether----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	event-maths----------Low
+ArbitraryFunctionType.sol**************
+	arbitrary-send----------High
+	locked-ether----------High
+	incorrect-equality----------Medium
+	uninitialized-localvar----------Medium
+	unused-return----------Medium
+	external-function----------Low
+	assembly----------Low
+visibility-storage.sol**************
+	similar-names----------Low
+	arbitrary-storagelocation-write----------Low
+	external-function----------Low
+	solc-version----------Low
+	variable-scope----------Low
+	uninitialized-storage----------Low
+	unused-var----------Low
+	constable-variable----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+erc1410-interface.sol**************
+	erc1410-interface----------Medium
+	erc777-interface----------Medium
+	constant_Function_State----------Low
+	solc-version----------Low
+	return-struct----------Low
+jump-arbitrary-instruction.sol**************
+	unused-return----------Medium
+	jump-arbitrary-instruction----------Low
+	external-function----------Low
+	solc-version----------Low
+	assembly----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+short-address-attack-NoError .sol**************
+	redundant_fallback----------Medium
+transfer-to-zeroaddress.sol**************
+	transfer-to-zeroaddress----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	state-default-visibility----------Low
+	solc-version----------Low
+	uninitialized-state----------Low
+	constable-variable----------Low
+	revert-require----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+publicToExternal.sol**************
+	arbitrary-send----------High
+	integer-overflow/underflow----------High
+	low-level-calls----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	timestamp----------Low
+	event-maths----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+suicidal.sol**************
+	suicidal----------High
+	low-level-calls----------High
+	incorrect-equality----------Medium
+	code-no-effect----------Low
+	state-default-visibility----------Low
+	solc-version----------Low
+	uninitialized-state----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+shortAddressAttack.sol**************
+	incorrect-equality----------Medium
+	constant_Function_State----------Low
+	short-address-attack----------Low
+	state-default-visibility----------Low
+	default-return-value----------Low
+	external-function----------Low
+	solc-version----------Low
+	variable-scope----------Low
+name-reused.sol**************
+	name-reused----------Low
+	similar-names----------Low
+	code-no-effect----------Low
+	unimplemented-function----------Low
+ImmutableConstant.sol**************
+	arbitrary-send----------High
+	incorrect-equality----------Medium
+	reentrancy-limited-gas----------Medium
+	arbitrary-storagelocation-write----------Low
+	constant_Function_State----------Low
+	controlled-array-length----------Low
+	solc-version----------Low
+	constable-variable----------Low
+	naming-convention----------Low
+unimplemented-functions.sol**************
+	naming-convention----------Low
+	unimplemented-function----------Low
+	void-constructor----------Low
+	solc-version----------Low
+repeat-call.sol**************
+	integer-overflow/underflow----------High
+	incorrect-equality----------Medium
+	private-not-hidedata----------Medium
+	modulo-overflow----------Medium
+	weak-prng----------Medium
+	nonpublic-variables-accessed-by-public/external_function----------Low
+	repeat-call----------Low
+	timestamp----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	event-maths----------Low
+ImplicitVisibility1.sol**************
+	similar-names----------Low
+	external-function----------Low
+	solc-version----------Low
+	uninitialized-storage----------Low
+	unused-var----------Low
+	constable-variable----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+token-with-backdoor.sol**************
+	integer-overflow/underflow----------High
+	assert_violation----------Medium
+	unused-return----------Medium
+	visibility----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+simple-suicide.sol**************
+	suicidal----------High
+	low-level-calls----------High
+	visibility----------Low
+	solc-version----------Low
+	void-constructor----------Low
+MissConstructor.sol**************
+	locked-ether----------High
+	incorrect-equality----------Medium
+	event-access----------Low
+	external-function----------Low
+	solc-version----------Low
+	void-constructor----------Low
+block-other-parameters-number.sol**************
+	arbitrary-send----------High
+	locked-ether----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	timestamp----------Low
+	block-other-parameters----------Low
+	constant_Function_State----------Low
+	upgrade_0.5.0----------Low
+	external-function----------Low
+	solc-version----------Low
+	state-default-visibility----------Low
+	event-maths----------Low
+ReEntrancy.sol**************
+	reentrancy-eth----------High
+	locked-ether----------High
+	integer-overflow/underflow----------High
+	low-level-calls----------High
+	unused-return----------Medium
+	timestamp----------Low
+	external-function----------Low
+	solc-version----------Low
+	pre-sent-ether----------Low
+	constable-variable----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+simpledschief.sol**************
+	redundant_fallback----------Medium
+	assert_violation----------Medium
+	unused-return----------Medium
+	constant_Function_State----------Low
+	default-return-value----------Low
+	external-function----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+storage-array.sol**************
+	integer-overflow/underflow----------High
+	unused-return----------Medium
+	external-function----------Low
+	solc-version----------Low
+	storageArray----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+send-transfer.sol**************
+	low-level-calls----------High
+	unused-return----------Medium
+	solc-version----------Low
+	send-transfer----------Low
+	uninitialized-state----------Low
+	revert-require----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+unused-state.sol**************
+	private-not-hidedata----------Medium
+	nonpublic-variables-accessed-by-public/external_function----------Low
+	similar-names----------Low
+	solc-version----------Low
+	shadowing-function----------Low
+	unused-var----------Low
+	uninitialized-state----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+redundant-fallback.sol**************
+	void-constructor----------Low
+Authorization-through-tx.origin.sol**************
+	arbitrary-send----------High
+	tx-origin----------High
+	missing-zero-check----------High
+	incorrect-constructor----------High
+	incorrect-equality----------Medium
+	event-access----------Low
+	external-function----------Low
+	solc-version----------Low
+	state-default-visibility----------Low
+unchecked-send.sol**************
+	unchecked-send----------High
+	unused-return----------Medium
+	variable-scope----------Low
+	void-constructor----------Low
+erc777-interface.sol**************
+	erc777-interface----------Medium
+	constant_Function_State----------Low
+	external-function----------Low
+	solc-version----------Low
+assembly-0.5.1.sol**************
+	assembly----------Low
+	external-function----------Low
+	solc-version----------Low
+GuessEachOtherNumber.sol**************
+	locked-ether----------High
+	integer-overflow/underflow----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	private-not-hidedata----------Medium
+	nonpublic-variables-accessed-by-public/external_function----------Low
+	similar-names----------Low
+	external-function----------Low
+	solc-version----------Low
+	uninitialized-storage----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+uninitLocalVar.sol**************
+	arbitrary-send----------High
+	locked-ether----------High
+	uninitialized-localvar----------Medium
+	solc-version----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+modulo-overflow.sol**************
+	incorrect-equality----------Medium
+	modulo-overflow----------Medium
+	external-function----------Low
+	solc-version----------Low
+	void-constructor----------Low
+token-error.sol**************
+	erc20-approve----------High
+	integer-overflow/underflow----------High
+	unused-return----------Medium
+	nonstandard-token-using(name/symbol/decimals)----------Low
+	visibility----------Low
+	short-address-attack----------Low
+	nonstandard-token-using(no_approval())----------Low
+	deprecated_Standard----------Low
+	function-problem----------Low
+	unused-var----------Low
+	revert-require----------Low
+	variable-scope----------Low
+abiencoder-array.sol**************
+	uninitialized-localvar----------Medium
+	abiencoderv2----------Medium
+	unused-return----------Medium
+	code-no-effect----------Low
+	external-function----------Low
+	variable-scope----------Low
+	uninitialized-storage----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+tokensalechallenge.sol**************
+	locked-ether----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	constant_Function_State----------Low
+	external-function----------Low
+	solc-version----------Low
+	state-default-visibility----------Low
+external-function.sol**************
+	arbitrary-send----------High
+	integer-overflow/underflow----------High
+	low-level-calls----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	timestamp----------Low
+	event-maths----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+Forced-ether.sol**************
+	arbitrary-send----------High
+	missing-zero-check----------High
+	incorrect-equality----------Medium
+	tautology----------Low
+	external-function----------Low
+	solc-version----------Low
+	state-default-visibility----------Low
+unstandardERC20.sol**************
+	incorrect-equality----------Medium
+	assert_violation----------Medium
+	unused-return----------Medium
+	code-no-effect----------Low
+	short-address-attack----------Low
+	default-return-value----------Low
+	external-function----------Low
+	solc-version----------Low
+	constable-variable----------Low
+	naming-convention----------Low
+	variable-scope----------Low
+	event-maths----------Low
+ConstBalanceInLoop.sol**************
+	integer-overflow/underflow----------High
+	length-manipulation----------Medium
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	external-function----------Low
+	controlled-array-length----------Low
+	extra-gas-inloops----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	costly_loop----------Low
+badProxy.sol**************
+	controlled-delegatecall----------High
+	unhandled-exception----------High
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	missing-zero-check----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	solc-version----------Low
+low-level-calls.sol**************
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	unchecked-send----------High
+	missing-zero-check----------High
+	controlled-delegatecall----------High
+	locked-ether----------High
+	unhandled-exception----------High
+	unused-return----------Medium
+	incorrect-equality----------Medium
+	upgrade_0.5.0----------Low
+	external-function----------Low
+	deprecated_Standard----------Low
+	revert-require----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+	visibility----------Low
+	shadowing-builtin----------Low
+	solc-version----------Low
+	uninitialized-state----------Low
+	variable-scope----------Low
+	void-constructor----------Low
+	constable-variable----------Low
+redundant-fallback-0.3.0.sol**************
+	integer-overflow/underflow----------High
+	redundant_fallback----------Medium
+	external-function----------Low
+	unused-var----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+runtime-create-user-input.sol**************
+	signedness-overflow----------High
+	assert_violation----------Medium
+	visibility----------Low
+	state-default-visibility----------Low
+	solc-version----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+typographical-error.sol**************
+	integer-overflow/underflow----------High
+	external-function----------Low
+	typographical-error----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+variableNotSafe.sol**************
+	locked-ether----------High
+	unchecked-send----------High
+	low-level-calls----------High
+	incorrect-equality----------Medium
+	reentrancy-limited-gas----------Medium
+	arbitrary-storagelocation-write----------Low
+	calls-inloop----------Low
+	controlled-array-length----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	variable-scope----------Low
+	costly_loop----------Low
+bank.sol**************
+	reentrancy-eth----------High
+	low-level-calls----------High
+	integer-overflow/underflow----------High
+	incorrect-constructor----------High
+	locked-ether----------High
+	unused-return----------Medium
+	reentrancy-events----------Medium
+	incorrect-equality----------Medium
+	code-no-effect----------Low
+	constant_Function_State----------Low
+	unimplemented-function----------Low
+	deprecated_Standard----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+	visibility----------Low
+	solc-version----------Low
+	pre-sent-ether----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+constable-states.sol**************
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	external-function----------Low
+	solc-version----------Low
+	shadowing-function----------Low
+	unused-var----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+complex-function.sol**************
+	integer-overflow/underflow----------High
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	complex-function----------Medium
+	similar-names----------Low
+	upgrade_0.5.0----------Low
+	external-function----------Low
+	solc-version----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+return-memory.sol**************
+	incorrect-equality----------Medium
+	upgrade_0.5.0----------Low
+	state-default-visibility----------Low
+	default-return-value----------Low
+	external-function----------Low
+	solc-version----------Low
+	abuse-boolean-constant----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+SigWrongPara-NoError.sol**************
+	incorrect-equality----------Medium
+	private-not-hidedata----------Medium
+tooManyDigits.sol**************
+	locked-ether----------High
+	incorrect-equality----------Medium
+	arbitrary-storagelocation-write----------Low
+	controlled-array-length----------Low
+	solc-version----------Low
+	too-many-digits----------Low
+	constable-variable----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+MappingDeletion.sol**************
+	incorrect-equality----------Medium
+	mapping-deletion----------Medium
+	constant_Function_State----------Low
+	external-function----------Low
+	solc-version----------Low
+	uninitialized-storage----------Low
+	public-mapping-nested----------Low
+	void-constructor----------Low
+assert-violation.sol**************
+	assert_violation----------Medium
+	unused-return----------Medium
+	similar-names----------Low
+	state-default-visibility----------Low
+	solc-version----------Low
+	uninitialized-state----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+unused-return.sol**************
+	suicidal----------High
+	controlled-delegatecall----------High
+	integer-overflow/underflow----------High
+	unchecked-lowlevelCall----------High
+	low-level-calls----------High
+	missing-zero-check----------High
+	unused-return----------Medium
+	visibility----------Low
+	upgrade_0.5.0----------Low
+	external-function----------Low
+	deprecated_Standard----------Low
+	solc-version----------Low
+	abuse-boolean-constant----------Low
+	constable-variable----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+constant-function-state-2.sol**************
+	integer-overflow/underflow----------High
+	constant_Function_State----------Low
+	external-function----------Low
+	solc-version----------Low
+	state-default-visibility----------Low
+shift-parameter-mixup.sol**************
+	void-constructor----------Low
+	shift-paramete-mixup----------Low
+	solc-version----------Low
+shadowing-local.sol**************
+	incorrect-equality----------Medium
+	similar-names----------Low
+	code-no-effect----------Low
+	shadowing-local----------Low
+	state-default-visibility----------Low
+	external-function----------Low
+	solc-version----------Low
+	uninitialized-state----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+enum-conversion.sol**************
+	external-function----------Low
+	enum_conversion----------Low
+	void-constructor----------Low
+integerDivision.sol**************
+	integer-overflow/underflow----------High
+	overpowered-role----------High
+	divide-before-multiply----------Medium
+	constant_Function_State----------Low
+	solc-version----------Low
+	naming-convention----------Low
+public-mappings-nested.sol**************
+	similar-names----------Low
+	external-function----------Low
+	solc-version----------Low
+	uninitialized-storage----------Low
+	public-mapping-nested----------Low
+	naming-convention----------Low
+	unused-var----------Low
+	void-constructor----------Low
+timeDependence.sol**************
+	locked-ether----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	private-not-hidedata----------Medium
+	timestamp----------Low
+	constant_Function_State----------Low
+	external-function----------Low
+	solc-version----------Low
+HashCollision.sol**************
+	incorrect-equality----------Medium
+	upgrade_0.5.0----------Low
+	state-default-visibility----------Low
+	solc-version----------Low
+	mul-var-len-arguments----------Low
+	revert-require----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+	costly_loop----------Low
+shadowing-function.sol**************
+	visibility----------Low
+	unimplemented-function----------Low
+	solc-version----------Low
+	shadowing-function----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+MissConstructor1.sol**************
+	private-not-hidedata----------Medium
+	unused-return----------Medium
+	nonpublic-variables-accessed-by-public/external_function----------Low
+	event-access----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	void-constructor----------Low
+replayAttack1.sol**************
+	integer-overflow/underflow----------High
+	incorrect-equality----------Medium
+	constant_Function_State----------Low
+	short-address-attack----------Low
+	state-default-visibility----------Low
+	default-return-value----------Low
+	external-function----------Low
+	solc-version----------Low
+	signature-malleability----------Low
+	abuse-boolean-constant----------Low
+	naming-convention----------Low
+	variable-scope----------Low
+	costly_loop----------Low
+uninitialized-storage-NoError.sol**************
+	uninitialized-localvar----------Medium
+	unused-return----------Medium
+	solc-version----------Low
+	uninitialized-storage-pointer----------Low
+	constable-variable----------Low
+	unused-var----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+signedness-overflow.sol**************
+	signedness-overflow----------High
+	external-function----------Low
+	solc-version----------Low
+	variable-scope----------Low
+	void-constructor----------Low
+Overwhelming.sol**************
+	missing-zero-check----------High
+	incorrect-equality----------Medium
+	private-not-hidedata----------Medium
+	nonpublic-variables-accessed-by-public/external_function----------Low
+	external-function----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	event-maths----------Low
+dowhileContinue.sol**************
+	overpowered-role----------High
+	unused-return----------Medium
+	arbitrary-storagelocation-write----------Low
+	solc-version----------Low
+	constable-variable----------Low
+	naming-convention----------Low
+constant-function-state-1.sol**************
+	unchecked-send----------High
+	unused-return----------Medium
+	shadowing-local----------Low
+	constant_Function_State----------Low
+	external-function----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+abuse-boolean-constants.sol**************
+	incorrect-constructor----------High
+	unused-return----------Medium
+	similar-names----------Low
+	solc-version----------Low
+	abuse-boolean-constant----------Low
+	unused-var----------Low
+	uninitialized-state----------Low
+	naming-convention----------Low
+	state-default-visibility----------Low
+	costly_loop----------Low
+incorrect-modifier.sol**************
+	unchecked-send----------High
+	low-level-calls----------High
+	code-no-effect----------Low
+	state-default-visibility----------Low
+	external-function----------Low
+	solc-version----------Low
+	uninitialized-state----------Low
+	naming-convention----------Low
+	variable-scope----------Low
+requirement-simple.sol**************
+	integer-overflow/underflow----------High
+	constant_Function_State----------Low
+	external-function----------Low
+	solc-version----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+missing-events-access-control.sol**************
+	integer-overflow/underflow----------High
+	incorrect-equality----------Medium
+	event-access----------Low
+	external-function----------Low
+	constable-variable----------Low
+	void-constructor----------Low
+	state-default-visibility----------Low
+erc621-interface.sol**************
+	erc621-interface----------Medium
+	short-address-attack----------Low
+boolean.sol**************
+	incorrect-constructor----------High
+	unused-return----------Medium
+	similar-names----------Low
+	abuse-boolean-constant----------Low
+	unused-var----------Low
+	uninitialized-state----------Low
+	state-default-visibility----------Low
+	costly_loop----------Low
+unprotected-upgrade.sol**************
+	low-level-calls----------High
+	incorrect-equality----------Medium
+	unused-return----------Medium
+	similar-names----------Low
+	code-no-effect----------Low
+	void-constructor----------Low
+	event-access----------Low
+	solc-version----------Low
+	naming-convention----------Low
+	unprotected-upgrade----------Low
+	state-default-visibility----------Low
+incorrect-constructor.sol**************
+	incorrect-constructor----------High
+	unused-return----------Medium
+	void-constructor----------Low
+	state-default-visibility----------Low
+erc875-interface.sol**************
+	erc875-interface----------Medium
+	erc721-interface----------Medium
+	visibility----------Low
+	constant_Function_State----------Low
+	short-address-attack----------Low
+	external-function----------Low
+	deprecated_Standard----------Low
+mul-var-len-arguments.sol**************
+	unused-return----------Medium
+	upgrade_0.5.0----------Low
+	void-constructor----------Low
+	variable-scope----------Low
+rtlo.sol**************
+	rtlo----------High
+	arbitrary-send----------High
+	unused-return----------Medium
+	code-no-effect----------Low
+	default-return-value----------Low
+	state-default-visibility----------Low
+	solc-version----------Low
+	variable-scope----------Low
