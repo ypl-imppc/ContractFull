@@ -1,4 +1,5 @@
-# ContractFull, a rapid and comprehensive static analysis tool for Ethereum smart contracts .This project is the supporting material of the paper titled "ContractFull:a rapid and comprehensive static analysis tool for Ethereum smart contracts", including: data set, test results, source code, etc.
+# ContractFull
+A rapid and comprehensive static analysis tool for Ethereum smart contracts .This project is the supporting material of the paper titled "ContractFull:a rapid and comprehensive static analysis tool for Ethereum smart contracts", including: data set, test results, source code, etc.
 
 ContractFull is a Solidity static analysis framework written in Python 3.10. The tool generates a detailed vulnerability report through an integrated solidity compiler, precise contract information extraction, comprehensive semantic intermediate representation transformation, and differentiated vulnerability pattern matching. Moreover, ContractFull introduces the first fully automated, end-to-end analysis process, spanning from source code to vulnerability detection, in the parsing and security inspection of smart contracts.Experimental results demonstrate that ContractFull exhibits robust performance across three distinct datasets.
 
