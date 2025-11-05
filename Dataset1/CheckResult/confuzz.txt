@@ -1,0 +1,311 @@
+abuse_boolean_constants.sol**************
+approve.sol**************
+ArbitraryFunctionType.sol**************
+arbitrary_send.sol**************
+	Unhandled exception----------High
+	Leaking ether----------High
+	Transaction order dependency----------High
+array_by_reference.sol**************
+	Assertion failure----------Medium
+assemblycall_rewrite.sol**************
+assembly_0.5.1.sol**************
+	Locking ether----------High
+assert_violation.sol**************
+	Integer overflow----------High
+	Assertion failure----------Medium
+Authorization_through_tx.origin.sol**************
+badDelegate.sol**************
+badProxy.sol**************
+badTxorigin.sol**************
+bank.sol**************
+	Reentrancy----------High
+block_other_parameters_number.sol**************
+boolean.sol**************
+boolean_equal.sol**************
+	Assertion failure----------Medium
+byte[].sol**************
+callstack.sol**************
+calls_inloop.sol**************
+code_no_effects.sol**************
+	Reentrancy----------High
+	Unhandled exception----------High
+	Transaction order dependency----------High
+complex_function.sol**************
+	Unhandled exception----------High
+confused_sign.sol**************
+	Leaking ether----------High
+	Integer overflow----------High
+	Assertion failure----------Medium
+constable_states.sol**************
+constant_function_state.sol**************
+	Unhandled exception----------High
+	Leaking ether----------High
+constant_function_state_2.sol**************
+ConstBalanceInLoop.sol**************
+	Integer overflow----------High
+	Assertion failure----------Medium
+constructor_return.sol**************
+	Locking ether----------High
+costly_loop.sol**************
+	Assertion failure----------Medium
+DangerousRandomNumbers.sol**************
+default_return_value.sol**************
+Delegatecall_Untrusted_callee.sol**************
+	Unsafe delegatecall----------High
+deleteDynamic.sol**************
+	Assertion failure----------Medium
+deprecated_simple.sol**************
+	Unprotected selfdestruct----------High
+divide_before_multiply.sol**************
+division_overflow.sol**************
+DOS_gaslimit.sol**************
+DOS_send_loop.sol**************
+	Unhandled exception----------High
+dowhileContinue.sol**************
+	Assertion failure----------Medium
+erc1410_interface.sol**************
+erc20_approve.sol**************
+	Assertion failure----------Medium
+erc20_indexed.sol**************
+erc20_interface.sol**************
+erc20_throw.sol**************
+	Integer overflow----------High
+erc621_interface.sol**************
+erc721_interface.sol**************
+erc777_interface.sol**************
+erc875_interface.sol**************
+event_before_revert.sol**************
+extcodesize_invoke.sol**************
+external_function.sol**************
+extra_gas_inloops.sol**************
+	Assertion failure----------Medium
+Forced_ether.sol**************
+function_problem.sol**************
+GuessEachOtherNumber.sol**************
+	Transaction order dependency----------High
+GuessStatic.sol**************
+guess_the_random_number.sol**************
+HardCodeAddress.sol**************
+HashCollision.sol**************
+hiddenSymbol.sol**************
+ImmutableConstant.sol**************
+ImplicitVisibility1.sol**************
+incorrect_blockhash.sol**************
+incorrect_constructor.sol**************
+	Transaction order dependency----------High
+	Leaking ether----------High
+incorrect_constructor_name.sol**************
+	Transaction order dependency----------High
+	Leaking ether----------High
+incorrect_equality.sol**************
+Incorrect_Inheritance-Order.sol**************
+Incorrect_Inheritance_order.sol**************
+	Block dependency----------Low
+Incorrect_Inheritance_order1.sol**************
+incorrect_modifier.sol**************
+	Unhandled exception----------High
+incorrect_signature.sol**************
+	Unhandled exception----------High
+integerDivision.sol**************
+	Assertion failure----------Medium
+IntegerSignednessError.sol**************
+integer_overflow.sol**************
+integer_overflow01.sol**************
+jump_arbitrary_instruction.sol**************
+KingOfTheEtherThrone.sol**************
+	Unhandled exception----------High
+	Transaction order dependency----------High
+	Assertion failure----------Medium
+length_manipulation.sol**************
+	Assertion failure----------Medium
+lockedMoney.sol**************
+	Locking ether----------High
+low_level_calls.sol**************
+	Reentrancy----------High
+	Unhandled exception----------High
+	Unsafe delegatecall----------High
+	Assertion failure----------Medium
+MappingDeletion.sol**************
+MissConstructor.sol**************
+	Transaction order dependency----------High
+MissConstructor1.sol**************
+	Transaction order dependency----------High
+	Leaking ether----------High
+missing_events_access_control.sol**************
+missing_events_arithmetic.sol**************
+missing_input_validation.sol**************
+missing_zero_address_validation.sol**************
+	Unhandled exception----------High
+modifier_reentrancy.sol**************
+modulo_overflow.sol**************
+msgvalue_equals_zero.sol**************
+mul_var_len_arguments.sol**************
+naming_convention.sol**************
+old_blockhash.sol**************
+Overflow.sol**************
+	Integer overflow----------High
+overpowered_role.sol**************
+Overwhelming.sol**************
+Overwriting_Arbitrary_Storagevariables.sol**************
+	Arbitrary memory access----------High
+	Assertion failure----------Medium
+ParticipantTracker.sol**************
+	Arbitrary memory access----------High
+	Assertion failure----------Medium
+PreSentEther.sol**************
+privateModifier.sol**************
+privatePass.sol**************
+private_not_hidedata.sol**************
+prodigal.sol**************
+publicToExternal.sol**************
+public_mappings_nested.sol**************
+PushButNoPull.sol**************
+	Unhandled exception----------High
+redundant_statements.sol**************
+ReEntrancy.sol**************
+	Reentrancy----------High
+	Block dependency----------Low
+reentrancy_eth.sol**************
+	Reentrancy----------High
+	Transaction order dependency----------High
+	Assertion failure----------Medium
+reentrancy_events.sol**************
+reentrancy_limited_gas.sol**************
+repeat_call.sol**************
+replayAttack1.sol**************
+replayAttack2.sol**************
+	Integer overflow----------High
+Replay_attack.sol**************
+requirement_simple.sol**************
+returnInCons.sol**************
+	Locking ether----------High
+return_memory.sol**************
+return_struct.sol**************
+reused_constructor.sol**************
+revert_require.sol**************
+	Block dependency----------Low
+rtlo.sol**************
+runtime_create_user_input.sol**************
+	Assertion failure----------Medium
+send_transfer.sol**************
+shadowingState.sol**************
+shadowing_builtin.sol**************
+shadowing_function.sol**************
+shadowing_local.sol**************
+shift_parameter_mixup.sol**************
+shortAddressAttack.sol**************
+Short_Address_Attack.sol**************
+	Locking ether----------High
+signedness_overflow.sol**************
+SigWrongPara.sol**************
+similar_names.sol**************
+simple_dao.sol**************
+	Reentrancy----------High
+	Leaking ether----------High
+simple_suicide.sol**************
+	Unprotected selfdestruct----------High
+storage_array.sol**************
+suicidal.sol**************
+	Unprotected selfdestruct----------High
+SuicideEasily.sol**************
+tautology_loop.sol**************
+timeDependence.sol**************
+	Assertion failure----------Medium
+	Block dependency----------Low
+timeDependence1.sol**************
+	Block dependency----------Low
+timestamp.sol**************
+	Block dependency----------Low
+TOD.sol**************
+	Transaction order dependency----------High
+	Leaking ether----------High
+TokenSale.sol**************
+tokensalechallenge.sol**************
+token_with_backdoor.sol**************
+	Assertion failure----------Medium
+tooManyDigits.sol**************
+	Assertion failure----------Medium
+transfer_to_zeroaddress.sol**************
+truncationError.sol**************
+tx_origin.sol**************
+	Leaking ether----------High
+typo_simple.sol**************
+UncappedVersion.sol**************
+unchecked_lowlevel.sol**************
+	Reentrancy----------High
+	Unhandled exception----------High
+Unchecked_returnValue_error.sol**************
+	Reentrancy----------High
+	Unhandled exception----------High
+underFlow.sol**************
+	Integer overflow----------High
+unhandledException.sol**************
+	Reentrancy----------High
+	Unhandled exception----------High
+	Transaction order dependency----------High
+	Assertion failure----------Medium
+unimplemented_functions.sol**************
+uninitialized_ptr_constructor.sol**************
+uninitialized_state.sol**************
+uninitialized_storage_NoError.sol**************
+Uninitialized_storage_pointer.sol**************
+Uninitialized_storage_pointer01.sol**************
+	Assertion failure----------Medium
+	Block dependency----------Low
+uninitLocalVar.sol**************
+uninitStateVar.sol**************
+Unprotected Ether Withdrawal.sol**************
+	Leaking ether----------High
+unprotected_upgrade.sol**************
+unstandardERC20.sol**************
+unstandardERC721.sol**************
+unused_return.sol**************
+unused_state.sol**************
+variableNotSafe.sol**************
+	Unhandled exception----------High
+	Transaction order dependency----------High
+	Assertion failure----------Medium
+variableScope.sol**************
+visibility_storage.sol**************
+void_constructors.sol**************
+wasteful_contract.sol**************
+	Leaking ether----------High
+weak_prng.sol**************
+writeto_arbitrarystorage.sol**************
+	Assertion failure----------Medium
+wrongName.sol**************
+	Locking ether----------High
+	Assertion failure----------Medium
+abiencoder_array.sol**************
+ArbitraryWrite.sol**************
+complexFallback.sol**************
+constant_function_state_1.sol**************
+continue_in_loop.sol**************
+deprecated_standards.sol**************
+division_overflow_NoError.sol**************
+enum_conversion.sol**************
+erc1155_interface.sol**************
+erc223_interface.sol**************
+ERC827.sol**************
+multiple_calls_in_transaction.sol**************
+multiple_constructors.sol**************
+name_reused.sol**************
+pragma_solc-version.sol**************
+redundant_fallback.sol**************
+redundant_fallback_0.3.0.sol**************
+ReEntrancy_attack.sol**************
+shadowing_abstract.sol**************
+shadowing_state.sol**************
+short_address_attack_NoError .sol**************
+SigWrongPara_NoError.sol**************
+simpledschief.sol**************
+state_default_visibility.sol**************
+Storage_Variabletomemory.sol**************
+token_error.sol**************
+typographical_error.sol**************
+UncappedVersion1.sol**************
+unchecked_send.sol**************
+uninitialized_storage.sol**************
+upgrade_050.sol**************
+visibility_0.5.0.sol**************
+visibility_not_set.sol**************

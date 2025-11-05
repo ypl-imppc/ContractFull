@@ -1,0 +1,247 @@
+length_manipulation.sol**************
+SuicideEasily.sol**************
+incorrect_blockhash.sol**************
+erc1155_interface.sol**************
+name_reused.sol**************
+integer_overflow.sol**************
+public_mappings_nested.sol**************
+IntegerSignednessError.sol**************
+redundant_fallback.sol**************
+Short_Address_Attack.sol**************
+tautology_loop.sol**************
+incorrect_constructor_name.sol**************
+SigWrongPara.sol**************
+assemblycall_rewrite.sol**************
+erc223_interface.sol**************
+Overwriting_Arbitrary_Storagevariables.sol**************
+boolean_equal.sol**************
+calls_inloop.sol**************
+MissConstructor.sol**************
+complexFallback.sol**************
+integer_overflow01.sol**************
+publicToExternal.sol**************
+Authorization_through_tx.origin.sol**************
+unhandledException.sol**************
+suicidal.sol**************
+redundant_statements.sol**************
+badDelegate.sol**************
+code_no_effects.sol**************
+missing_input_validation.sol**************
+redundant_fallback_0.3.0.sol**************
+token_error.sol**************
+byte[].sol**************
+simple_dao.sol**************
+Unchecked_returnValue_error.sol**************
+wrongName.sol**************
+ERC827.sol**************
+assert_violation.sol**************
+void_constructors.sol**************
+array_by_reference.sol**************
+incorrect_signature.sol**************
+	Unchecked return value----------High
+assembly_0.5.1.sol**************
+external_function.sol**************
+erc721_interface.sol**************
+abiencoder_array.sol**************
+shadowing_local.sol**************
+transfer_to_zeroaddress.sol**************
+complex_function.sol**************
+	Unchecked return value----------High
+Forced_ether.sol**************
+division_overflow.sol**************
+TOD.sol**************
+shortAddressAttack.sol**************
+constant_function_state_2.sol**************
+unchecked_send.sol**************
+constant_function_state_1.sol**************
+variableScope.sol**************
+short_address_attack_NoError .sol**************
+arbitrary_send.sol**************
+erc20_approve.sol**************
+	Assertion failure----------Medium
+modifier_reentrancy.sol**************
+missing_zero_address_validation.sol**************
+shadowing_function.sol**************
+approve.sol**************
+reused_constructor.sol**************
+event_before_revert.sol**************
+uninitStateVar.sol**************
+prodigal.sol**************
+uninitialized_state.sol**************
+ImmutableConstant.sol**************
+unused_state.sol**************
+Delegatecall_Untrusted_callee.sol**************
+	Unsafe delegatecall----------High
+integerDivision.sol**************
+ArbitraryWrite.sol**************
+incorrect_equality.sol**************
+jump_arbitrary_instruction.sol**************
+old_blockhash.sol**************
+deprecated_simple.sol**************
+	Unprotected selfdestruct----------High
+unchecked_lowlevel.sol**************
+storage_array.sol**************
+weak_prng.sol**************
+costly_loop.sol**************
+PreSentEther.sol**************
+visibility_not_set.sol**************
+unstandardERC20.sol**************
+Overflow.sol**************
+Incorrect_Inheritance_order.sol**************
+confused_sign.sol**************
+	Integer underflow----------High
+	Leaking ether----------High
+	Integer overflow----------High
+	Assertion failure----------Medium
+upgrade_050.sol**************
+division_overflow_NoError.sol**************
+timeDependence.sol**************
+deprecated_standards.sol**************
+constructor_return.sol**************
+mul_var_len_arguments.sol**************
+GuessEachOtherNumber.sol**************
+requirement_simple.sol**************
+Storage_Variabletomemory.sol**************
+runtime_create_user_input.sol**************
+	Assertion failure----------Medium
+constant_function_state.sol**************
+DOS_gaslimit.sol**************
+divide_before_multiply.sol**************
+incorrect_constructor.sol**************
+signedness_overflow.sol**************
+Incorrect_Inheritance_order1.sol**************
+simple_suicide.sol**************
+	Unprotected selfdestruct----------High
+ArbitraryFunctionType.sol**************
+enum_conversion.sol**************
+shadowingState.sol**************
+constable_states.sol**************
+reentrancy_eth.sol**************
+	Transaction order dependency----------High
+	Reentrancy----------High
+MissConstructor1.sol**************
+visibility_storage.sol**************
+hiddenSymbol.sol**************
+erc20_throw.sol**************
+erc621_interface.sol**************
+underFlow.sol**************
+default_return_value.sol**************
+returnInCons.sol**************
+unprotected_upgrade.sol**************
+missing_events_arithmetic.sol**************
+tx_origin.sol**************
+token_with_backdoor.sol**************
+	Assertion failure----------Medium
+ParticipantTracker.sol**************
+badProxy.sol**************
+ReEntrancy_attack.sol**************
+uninitialized_storage_NoError.sol**************
+replayAttack2.sol**************
+Uninitialized_storage_pointer.sol**************
+UncappedVersion1.sol**************
+callstack.sol**************
+dowhileContinue.sol**************
+	Assertion failure----------Medium
+ReEntrancy.sol**************
+	Transaction order dependency----------High
+	Reentrancy----------High
+	Block dependency----------Low
+function_problem.sol**************
+GuessStatic.sol**************
+shift_parameter_mixup.sol**************
+erc1410_interface.sol**************
+privatePass.sol**************
+wasteful_contract.sol**************
+	Leaking ether----------High
+send_transfer.sol**************
+timeDependence1.sol**************
+boolean.sol**************
+multiple_constructors.sol**************
+deleteDynamic.sol**************
+erc875_interface.sol**************
+revert_require.sol**************
+guess_the_random_number.sol**************
+DangerousRandomNumbers.sol**************
+writeto_arbitrarystorage.sol**************
+	Assertion failure----------Medium
+extcodesize_invoke.sol**************
+multiple_calls_in_transaction.sol**************
+MappingDeletion.sol**************
+tokensalechallenge.sol**************
+low_level_calls.sol**************
+	Unsafe delegatecall----------High
+	Locking ether----------High
+	Unchecked return value----------High
+	Assertion failure----------Medium
+naming_convention.sol**************
+erc20_interface.sol**************
+lockedMoney.sol**************
+erc777_interface.sol**************
+modulo_overflow.sol**************
+variableNotSafe.sol**************
+	Transaction order dependency----------High
+	Unchecked return value----------High
+	Assertion failure----------Medium
+similar_names.sol**************
+simpledschief.sol**************
+	Integer underflow----------High
+uninitialized_ptr_constructor.sol**************
+shadowing_abstract.sol**************
+return_struct.sol**************
+UncappedVersion.sol**************
+unimplemented_functions.sol**************
+overpowered_role.sol**************
+truncationError.sol**************
+Overwhelming.sol**************
+msgvalue_equals_zero.sol**************
+HardCodeAddress.sol**************
+unstandardERC721.sol**************
+shadowing_state.sol**************
+reentrancy_events.sol**************
+typographical_error.sol**************
+bank.sol**************
+	Reentrancy----------High
+Uninitialized_storage_pointer01.sol**************
+Incorrect_Inheritance-Order.sol**************
+tooManyDigits.sol**************
+visibility_0.5.0.sol**************
+reentrancy_limited_gas.sol**************
+	Transaction order dependency----------High
+	Reentrancy----------High
+	Unchecked return value----------High
+pragma_solc-version.sol**************
+shadowing_builtin.sol**************
+ConstBalanceInLoop.sol**************
+KingOfTheEtherThrone.sol**************
+	Leaking ether----------High
+	Unchecked return value----------High
+	Assertion failure----------Medium
+state_default_visibility.sol**************
+DOS_send_loop.sol**************
+replayAttack1.sol**************
+block_other_parameters_number.sol**************
+unused_return.sol**************
+erc20_indexed.sol**************
+incorrect_modifier.sol**************
+TokenSale.sol**************
+badTxorigin.sol**************
+PushButNoPull.sol**************
+missing_events_access_control.sol**************
+HashCollision.sol**************
+repeat_call.sol**************
+privateModifier.sol**************
+return_memory.sol**************
+abuse_boolean_constants.sol**************
+extra_gas_inloops.sol**************
+Unprotected Ether Withdrawal.sol**************
+continue_in_loop.sol**************
+uninitLocalVar.sol**************
+ImplicitVisibility1.sol**************
+timestamp.sol**************
+typo_simple.sol**************
+private_not_hidedata.sol**************
+SigWrongPara_NoError.sol**************
+rtlo.sol**************
+uninitialized_storage.sol**************
+Replay_attack.sol**************
+Total time : 771.5708818435669
