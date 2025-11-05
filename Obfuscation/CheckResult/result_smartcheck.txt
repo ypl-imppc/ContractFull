@@ -1,0 +1,126 @@
+tautology_obfuscation.sol**************
+	Non-strict comparison with zero----------Medium
+	Implicit visibility level----------Low
+	Hardcoded address----------Low
+integer overflow_underflow-fixed_obfuscation.sol**************
+	Use of SafeMath----------Low
+	Compiler version not fixed----------Low
+msgvalue_zero.sol**************
+	msg.value == 0 check----------Low
+	Implicit visibility level----------Low
+private_not_hidedata.sol**************
+similar_names_obfuscation.sol**************
+	Implicit visibility level----------Low
+	Hardcoded address----------Low
+SigWrongPara.sol**************
+	Locked money----------High
+	Implicit visibility level----------Low
+extra_gas_inloops.sol**************
+	Costly loop----------Medium
+	Extra gas consumption----------Low
+	Implicit visibility level----------Low
+	Deprecated constructions----------Low
+tx_origin_obfuscation.sol**************
+	Using tx.origin for authorization----------High
+	Costly loop----------Medium
+	Implicit visibility level----------Low
+	Extra gas consumption----------Low
+	Revert inside the if-operator----------Low
+zero_address.sol**************
+	Revert inside the if-operator----------Low
+	Implicit visibility level----------Low
+	Hardcoded address----------Low
+similar_names.sol**************
+	Implicit visibility level----------Low
+SigWrongPara_obfuscation.sol**************
+	Locked money----------High
+	Implicit visibility level----------Low
+tautology.sol**************
+	Implicit visibility level----------Low
+integer overflow_underflow-fixed.sol**************
+	Use of SafeMath----------Low
+	Compiler version not fixed----------Low
+tx_origin.sol**************
+	Using tx.origin for authorization----------High
+	Costly loop----------Medium
+	Implicit visibility level----------Low
+	Extra gas consumption----------Low
+	Revert inside the if-operator----------Low
+rtlo_obfuscation.sol**************
+extra_gas_inloops_obfuscation.sol**************
+	Costly loop----------Medium
+	Implicit visibility level----------Low
+	Extra gas consumption----------Low
+	Upgrade code to Solidity 0.5.x----------Low
+	Deprecated constructions----------Low
+	Hardcoded address----------Low
+reentrancy_eth_obfuscation.sol**************
+	Use of call function with no data----------Medium
+	Implicit visibility level----------Low
+	Upgrade code to Solidity 0.5.x----------Low
+	Compiler version not fixed----------Low
+	Revert inside the if-operator----------Low
+	Deprecated constructions----------Low
+timeDependence_obfuscation.sol**************
+	Strict comparison with block.timestamp or now----------Medium
+	Implicit visibility level----------Low
+reentrancy_eth.sol**************
+	Use of call function with no data----------Medium
+	Implicit visibility level----------Low
+	Upgrade code to Solidity 0.5.x----------Low
+	Compiler version not fixed----------Low
+	Revert inside the if-operator----------Low
+	Deprecated constructions----------Low
+msgvalue_zero_obfuscation.sol**************
+	msg.value == 0 check----------Low
+	Implicit visibility level----------Low
+	Hardcoded address----------Low
+event_revert.sol**************
+	Costly loop----------Medium
+	Revert inside the if-operator----------Low
+	Deprecated constructions----------Low
+	Implicit visibility level----------Low
+low_level_calls_obfuscation.sol**************
+	Locked money----------High
+	Unchecked low-level call----------High
+	Use of call function with no data----------Medium
+	Revert inside the if-operator----------Low
+	Implicit visibility level----------Low
+	Deprecated constructions----------Low
+	Hardcoded address----------Low
+	Send instead of transfer----------Low
+zero_address_obfuscation.sol**************
+	Revert inside the if-operator----------Low
+	Implicit visibility level----------Low
+	Hardcoded address----------Low
+private_not_hidedata_obfuscation.sol**************
+	Implicit visibility level----------Low
+unchecked_send_obfuscation.sol**************
+	Locked money----------High
+	Implicit visibility level----------Low
+unchecked_send.sol**************
+	Locked money----------High
+	Implicit visibility level----------Low
+low_level_calls.sol**************
+	Locked money----------High
+	Unchecked low-level call----------High
+	Use of call function with no data----------Medium
+	Implicit visibility level----------Low
+	Revert inside the if-operator----------Low
+	Deprecated constructions----------Low
+	Send instead of transfer----------Low
+tooManyDigits_obfuscation.sol**************
+	Implicit visibility level----------Low
+tooManyDigits.sol**************
+	Implicit visibility level----------Low
+event_revert_obfuscation.sol**************
+	Costly loop----------Medium
+	Implicit visibility level----------Low
+	Revert inside the if-operator----------Low
+	Deprecated constructions----------Low
+	Hardcoded address----------Low
+timeDependence.sol**************
+	Strict comparison with block.timestamp or now----------Medium
+	Implicit visibility level----------Low
+rtlo.sol**************
+Total time : 145.66375398635864

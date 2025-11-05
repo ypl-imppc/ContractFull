@@ -1,0 +1,50 @@
+event_revert.sol**************
+SigWrongPara_obfuscation.sol**************
+SigWrongPara.sol**************
+	MultipleSends----------Low
+private_not_hidedata_obfuscation.sol**************
+reentrancy_eth_obfuscation.sol**************
+event_revert_obfuscation.sol**************
+zero_address_obfuscation.sol**************
+rtlo_obfuscation.sol**************
+unchecked_send.sol**************
+tooManyDigits_obfuscation.sol**************
+msgvalue_zero.sol**************
+unchecked_send_obfuscation.sol**************
+extra_gas_inloops_obfuscation.sol**************
+timeDependence.sol**************
+	Exceptions----------Medium
+	PredictableVariables----------Low
+reentrancy_eth.sol**************
+	StateChangeAfterCall----------Medium
+	TransactionOrderDependence----------Medium
+	Exceptions----------Medium
+	ExternalCalls----------Low
+tx_origin.sol**************
+	EtherThief----------High
+	TransactionOrderDependence----------Medium
+	TxOrigin----------Low
+low_level_calls_obfuscation.sol**************
+integer overflow_underflow-fixed_obfuscation.sol**************
+tautology.sol**************
+timeDependence_obfuscation.sol**************
+low_level_calls.sol**************
+	UncheckedRetval----------Medium
+	Exceptions----------Medium
+	ExternalCalls----------Low
+msgvalue_zero_obfuscation.sol**************
+tautology_obfuscation.sol**************
+similar_names.sol**************
+tx_origin_obfuscation.sol**************
+similar_names_obfuscation.sol**************
+integer overflow_underflow-fixed.sol**************
+tooManyDigits.sol**************
+zero_address.sol**************
+extra_gas_inloops.sol**************
+	Exceptions----------Medium
+private_not_hidedata.sol**************
+rtlo.sol**************
+	EtherThief----------High
+	TransactionOrderDependence----------Medium
+	MultipleSends----------Low
+

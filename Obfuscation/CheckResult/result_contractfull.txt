@@ -1,0 +1,302 @@
+tautology_obfuscation.sol**************
+	integer-overflow/underflow----------High
+	missing-input-validation----------High
+	wasteful-contract----------High
+	redundant_fallback----------Medium
+	division-overflow----------Medium
+	uninitialized-localvar----------Medium
+	unused-return----------Medium
+	divide-before-multiply----------Medium
+	assert_violation----------Medium
+	constable-variable----------Low
+	function-problem----------Low
+	external-function----------Low
+	default-return-value----------Low
+	callstack----------Low
+	tautology----------Low
+	boolean-equal----------Low
+integer overflow_underflow-fixed_obfuscation.sol**************
+	truncation-overflow----------High
+	wasteful-contract----------High
+	uninitialized-localvar----------Medium
+	divide-before-multiply----------Medium
+	typographical-error----------Low
+	constant_Function_State----------Low
+	function-problem----------Low
+	callstack----------Low
+	default-return-value----------Low
+msgvalue_zero.sol**************
+	integer-overflow/underflow----------High
+	redundant_fallback----------Medium
+	msgvalue-equals-zero ---------- Low
+private_not_hidedata.sol**************
+	integer-overflow/underflow----------High
+	unused-return----------Medium
+	private-not-hidedata ---------- Medium
+similar_names_obfuscation.sol**************
+	redundant_fallback----------Medium
+	similar-names ---------- Low
+SigWrongPara.sol**************
+	incorrect-equality----------Medium
+	wrong-parameter-signature----------Medium
+	private-not-hidedata----------Medium
+	solc-version----------Low
+	naming-convention----------Low
+extra_gas_inloops.sol**************
+	integer-overflow/underflow----------High
+	redundant_fallback----------Medium
+	unused-return----------Medium
+	constant_Function_State----------Low
+	extra-gas-inloops ---------- Low
+tx_origin_obfuscation.sol**************
+	wasteful-contract----------High
+	unhandled-exception----------High
+	unchecked-send----------High
+	overpowered-role----------High
+	tx-origin ---------- High
+	redundant_fallback----------Medium
+	uninitialized-localvar----------Medium
+	unused-return----------Medium
+	complex-function----------Medium
+	divide-before-multiply----------Medium
+	function-problem----------Low
+	multiple-calls-in-transaction----------Low
+	external-function----------Low
+	callstack----------Low
+	shift-paramete-mixup----------Low
+	event-before-revert----------Low
+	tautology----------Low
+zero_address.sol**************
+	unchecked-send----------High
+	wasteful-contract----------High
+	unchecked-lowlevelCall----------High
+	unhandled-exception----------High
+	redundant_fallback----------Medium
+	uninitialized-localvar----------Medium
+	division-overflow----------Medium
+	complex-function----------Medium
+	unused-return----------Medium
+	divide-before-multiply----------Medium
+	function-problem----------Low
+	callstack----------Low
+	external-function----------Low
+	multiple-calls-in-transaction----------Low
+	event-before-revert----------Low
+	extcodesize-invoke----------Low
+	tautology----------Low
+	shift-paramete-mixup----------Low
+similar_names.sol**************
+	redundant_fallback----------Medium
+	similar-names ---------- Low
+SigWrongPara_obfuscation.sol**************
+	incorrect-equality----------Medium
+	wrong-parameter-signature----------Medium
+	private-not-hidedata----------Medium
+	solc-version----------Low
+	naming-convention----------Low
+tautology.sol**************
+	integer-overflow/underflow----------High
+	wasteful-contract----------High
+	redundant_fallback----------Medium
+	uninitialized-localvar----------Medium
+	unused-return----------Medium
+	divide-before-multiply----------Medium
+	assert_violation----------Medium
+	tautology----------Low
+	shadowing-builtin----------Low
+	callstack----------Low
+	external-function----------Low
+	function-problem----------Low
+integer overflow_underflow-fixed.sol**************
+	truncation-overflow----------High
+	wasteful-contract----------High
+	uninitialized-localvar----------Medium
+	divide-before-multiply----------Medium
+	constant_Function_State----------Low
+	function-problem----------Low
+	callstack----------Low
+	default-return-value----------Low
+tx_origin.sol**************
+	overpowered-role----------High
+	wasteful-contract----------High
+	unhandled-exception----------High
+	tx-origin ---------- High
+	redundant_fallback----------Medium
+	uninitialized-localvar----------Medium
+	division-overflow----------Medium
+	unused-return----------Medium
+	complex-function----------Medium
+	divide-before-multiply----------Medium
+	callstack----------Low
+	function-problem----------Low
+	external-function----------Low
+	tautology----------Low
+	shift-paramete-mixup----------Low
+rtlo_obfuscation.sol**************
+	rtlo ---------- High
+	integer-overflow/underflow----------High
+	redundant_fallback----------Medium
+	constant_Function_State----------Low
+extra_gas_inloops_obfuscation.sol**************
+	integer-overflow/underflow----------High
+	redundant_fallback----------Medium
+	unused-return----------Medium
+	constant_Function_State----------Low
+	extra-gas-inloops ---------- Low
+reentrancy_eth_obfuscation.sol**************
+	integer-overflow/underflow----------High
+	reentrancy-eth ---------- High
+	visibility----------Low
+	deprecated_Standard----------Low
+timeDependence_obfuscation.sol**************
+	integer-overflow/underflow----------High
+	timestamp ---------- Low
+reentrancy_eth.sol**************
+	integer-overflow/underflow----------High
+	reentrancy-eth ---------- High	
+	visibility----------Low
+	deprecated_Standard----------Low
+msgvalue_zero_obfuscation.sol**************
+	integer-overflow/underflow----------High
+	redundant_fallback----------Medium
+	msgvalue-equals-zero ---------- Low
+event_revert.sol**************
+	wasteful-contract----------High
+	redundant_fallback----------Medium
+	uninitialized-localvar----------Medium
+	unused-return----------Medium
+	divide-before-multiply----------Medium
+	revert-require ---------- Low
+	callstack----------Low
+	event-maths----------Low
+	tautology----------Low
+low_level_calls_obfuscation.sol**************
+	truncation-overflow----------High
+	signedness-overflow----------High
+	locked-ether----------High
+	unhandled-exception----------High
+	unchecked-lowlevelCall----------High
+	wasteful-contract----------High
+	missing-input-validation----------High
+	unchecked-send----------High
+	division-overflow----------Medium
+	uninitialized-localvar----------Medium
+	complex-function----------Medium
+	unused-return----------Medium
+	wrong-parameter-signature----------Medium
+	incorrect-equality----------Medium
+	assert_violation----------Medium
+	divide-before-multiply----------Medium
+	variable-scope----------Low
+	similar-names----------Low
+	shadowing-builtin----------Low
+	multiple-calls-in-transaction----------Low
+	function-problem----------Low
+	external-function----------Low
+	callstack----------Low
+	default-return-value----------Low
+	tautology----------Low
+	event-access----------Low
+	send-transfer----------Low
+	jump-arbitrary-instruction----------Low
+	event-maths----------Low
+	shift-paramete-mixup----------Low
+	event-before-revert----------Low
+	extcodesize-invoke----------Low
+	boolean-equal----------Low
+zero_address_obfuscation.sol**************
+	wasteful-contract----------High
+	missing-input-validation----------High
+	unhandled-exception----------High
+	unchecked-lowlevelCall----------High
+	missing-zero-check ---------- High
+	redundant_fallback----------Medium
+	uninitialized-localvar----------Medium
+	division-overflow----------Medium
+	unused-return----------Medium
+	complex-function----------Medium
+	divide-before-multiply----------Medium
+	variable-scope----------Low
+	multiple-calls-in-transaction----------Low
+	external-function----------Low
+	callstack----------Low
+	function-problem----------Low
+	default-return-value----------Low
+	tautology----------Low
+	extcodesize-invoke----------Low
+	shift-paramete-mixup----------Low
+	event-before-revert----------Low
+private_not_hidedata_obfuscation.sol**************
+	integer-overflow/underflow----------High
+	unused-return----------Medium
+	private-not-hidedata ---------- Medium
+unchecked_send_obfuscation.sol**************
+	unchecked-send ---------- High
+unchecked_send.sol**************
+	unchecked-send ---------- High
+	unused-return----------Medium
+low_level_calls.sol**************
+	signedness-overflow----------High
+	truncation-overflow----------High
+	locked-ether----------High
+	unchecked-send----------High
+	unchecked-lowlevelCall----------High
+	wasteful-contract----------High
+	unhandled-exception----------High
+	missing-input-validation----------High
+	division-overflow----------Medium
+	uninitialized-localvar----------Medium
+	unused-return----------Medium
+	complex-function----------Medium
+	assert_violation----------Medium
+	divide-before-multiply----------Medium
+	incorrect-equality----------Medium
+	wrong-parameter-signature----------Medium
+	shadowing-builtin----------Low
+	similar-names----------Low
+	variable-scope----------Low
+	callstack----------Low
+	external-function----------Low
+	multiple-calls-in-transaction----------Low
+	default-return-value----------Low
+	function-problem----------Low
+	boolean-equal----------Low
+	tautology----------Low
+	extcodesize-invoke----------Low
+	event-maths----------Low
+	event-access----------Low
+	shift-paramete-mixup----------Low
+	jump-arbitrary-instruction----------Low
+	send-transfer----------Low
+	event-before-revert----------Low
+tooManyDigits_obfuscation.sol**************
+	rtlo ---------- High
+	missing-zero-check ---------- Medium
+	too-many-digits ---------- Low
+tooManyDigits.sol**************
+	rtlo ---------- High
+	missing-zero-check ---------- Medium
+	too-many-digits ---------- Low
+event_revert_obfuscation.sol**************
+	wasteful-contract----------High
+	unhandled-exception----------High
+	redundant_fallback----------Medium
+	uninitialized-localvar----------Medium
+	unused-return----------Medium
+	complex-function----------Medium
+	divide-before-multiply----------Medium
+	revert-require ---------- Low
+	callstack----------Low
+	shift-paramete-mixup----------Low
+	event-access----------Low
+	event-maths----------Low
+timeDependence.sol**************
+	integer-overflow/underflow----------High
+	timestamp ---------- Low
+rtlo.sol**************
+	rtlo ---------- High
+	integer-overflow/underflow----------High
+	redundant_fallback----------Medium
+	constant_Function_State----------Low
+	
+Total time : 128.37808346748352

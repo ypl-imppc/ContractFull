@@ -1,0 +1,67 @@
+low_level_calls.sol**************
+	Reentrancy----------High
+	Unhandled exception----------High
+	Unsafe delegatecall----------High
+	Assertion failure----------Medium
+low_level_calls_obfuscation.sol**************
+	Reentrancy----------High
+	Unhandled exception----------High
+	Unsafe delegatecall----------High
+	Assertion failure----------Medium
+private_not_hidedata.sol**************
+reentrancy_eth.sol**************
+	Transaction order dependency----------High
+	Reentrancy----------High
+	Assertion failure----------Medium
+reentrancy_eth_obfuscation.sol**************
+	Transaction order dependency----------High
+	Reentrancy----------High
+	Assertion failure----------Medium
+rtlo.sol**************
+rtlo_obfuscation.sol**************
+SigWrongPara.sol**************
+SigWrongPara_obfuscation.sol**************
+timeDependence.sol**************
+	Block dependency----------Low
+tooManyDigits.sol**************
+	Assertion failure----------Medium
+tooManyDigits_obfuscation.sol**************
+	Assertion failure----------Medium
+tx_origin.sol**************
+	Leaking ether----------High
+	Assertion failure----------Medium
+tx_origin_obfuscation.sol**************
+	Leaking ether----------High
+	Assertion failure----------Medium
+event_revert.sol**************
+event_revert_obfuscation.sol**************
+extra_gas_inloops.sol**************
+extra_gas_inloops_obfuscation.sol**************
+integer overflow_underflow-fixed.sol**************
+integer overflow_underflow-fixed_obfuscation.sol**************
+low_level_calls.sol**************
+low_level_calls_obfuscation.sol**************
+msgvalue_zero.sol**************
+msgvalue_zero_obfuscation.sol**************
+private_not_hidedata.sol**************
+private_not_hidedata_obfuscation.sol**************
+reentrancy_eth.sol**************
+reentrancy_eth_obfuscation.sol**************
+rtlo.sol**************
+rtlo_obfuscation.sol**************
+SigWrongPara.sol**************
+SigWrongPara_obfuscation.sol**************
+similar_names.sol**************
+similar_names_obfuscation.sol**************
+tautology.sol**************
+tautology_obfuscation.sol**************
+timeDependence.sol**************
+timeDependence_obfuscation.sol**************
+tooManyDigits.sol**************
+tooManyDigits_obfuscation.sol**************
+tx_origin.sol**************
+tx_origin_obfuscation.sol**************
+unchecked_send.sol**************
+unchecked_send_obfuscation.sol**************
+zero_address.sol**************
+zero_address_obfuscation.sol**************

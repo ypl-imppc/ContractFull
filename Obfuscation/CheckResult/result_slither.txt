@@ -1,0 +1,61 @@
+tautology_obfuscation.sol**************
+integer overflow_underflow-fixed_obfuscation.sol**************
+msgvalue_zero.sol**************
+private_not_hidedata.sol**************
+	arbitrary-send-eth----------High
+	solc-version----------Informational
+	naming-convention----------Informational
+similar_names_obfuscation.sol**************
+SigWrongPara.sol**************
+extra_gas_inloops.sol**************
+tx_origin_obfuscation.sol**************
+zero_address.sol**************
+similar_names.sol**************
+SigWrongPara_obfuscation.sol**************
+	solc-version----------Informational
+	naming-convention----------Informational
+	constable-states----------Optimization
+tautology.sol**************
+integer overflow_underflow-fixed.sol**************
+tx_origin.sol**************
+rtlo_obfuscation.sol**************
+extra_gas_inloops_obfuscation.sol**************
+reentrancy_eth_obfuscation.sol**************
+	reentrancy-eth----------High
+	erc20-interface----------Medium
+	deprecated-standards----------Informational
+	solc-version----------Informational
+	low-level-calls----------Informational
+timeDependence_obfuscation.sol**************
+reentrancy_eth.sol**************
+	reentrancy-eth----------High
+	erc20-interface----------Medium
+	deprecated-standards----------Informational
+	solc-version----------Informational
+	low-level-calls----------Informational
+msgvalue_zero_obfuscation.sol**************
+event_revert.sol**************
+low_level_calls_obfuscation.sol**************
+zero_address_obfuscation.sol**************
+private_not_hidedata_obfuscation.sol**************
+unchecked_send_obfuscation.sol**************
+unchecked_send.sol**************
+low_level_calls.sol**************
+tooManyDigits_obfuscation.sol**************
+	solc-version----------Informational
+	naming-convention----------Informational
+	too-many-digits----------Informational
+	constable-states----------Optimization
+tooManyDigits.sol**************
+	solc-version----------Informational
+	naming-convention----------Informational
+	too-many-digits----------Informational
+	constable-states----------Optimization
+event_revert_obfuscation.sol**************
+timeDependence.sol**************
+	weak-prng----------High
+	incorrect-equality----------Medium
+	timestamp----------Low
+	solc-version----------Informational
+rtlo.sol**************
+Total time : 381.6907413005829
